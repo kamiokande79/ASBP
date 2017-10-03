@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- # Main Scene File -->
+
+<scene version="0.5.1">
+
+	<integrator type="path"/>
+	
+	<include filename="AS11-40-5866_Sensor.xml"/>
+	
+	<include filename="../Scene/Sun_14deg.xml"/>
+
+	<include filename="../Materials/Astronaut_Materials.xml"/>
+
+	<include filename="../Materials/LEM_Materials.xml"/>
+
+	<include filename="../Scene/AS11-40-5866/Aldrin_Model.xml"/>
+	
+	<include filename="../Scene/AS11-40-5866/Armstrong_Model.xml"/>
+
+	<include filename="../Scene/LEM_Model.xml"/>
+
+	<include filename="../Scene/Apollo11_Soil_Hapke.xml"/>
+
+</scene>

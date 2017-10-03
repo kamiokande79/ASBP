@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	<shape id="White_Panel" type="serialized">
+		<string name="filename" value="../Scene/Reflector_Panel.serialized"/>
+		<transform name="toWorld">
+			<matrix value="-1.595837 0.000000 0.890004 -9.424910 0.000000 1.500000 -0.000000 4.564788 -3.115013 -0.000000 -0.455953 4.929748 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref id="Silver_Paint-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+</scene>

@@ -3,7 +3,7 @@
 
 This project tries to replicate the optical physical behaviour of the moon's soil, as seen in the <a rel="projectapolloarchive" href="https://www.flickr.com/photos/projectapolloarchive/">Apollo moon mission photos</a>, using a phisically based 3D rendering software as <a rel="Mitsuba" href="https://www.mitsuba-renderer.org/">Mitsuba</a>.
 
-In particular the project is focused in reproducing the picture <a rel="AS11-40-5866"  href="https://www.flickr.com/photos/projectapolloarchive/22056325752/in/album-72157657350941603/">AS11-40-5866</a> (magazine 40/S), but can be used to reproduce other pictures as well.
+In particular the project is focused in reproducing the picture <a rel="AS11-40-5866"  href="https://www.flickr.com/photos/projectapolloarchive/22056325752/in/album-72157657350941603/">AS11-40-5866</a> (magazine 40/S), but it can be used to reproduce other pictures as well.
 
 The soil 3D model is built from the <a rel="LROC"  href="http://wms.lroc.asu.edu/lroc/view_rdr_product/NAC_DTM_APOLLO11_E010N0230">Lunar Reconnaissance Orbiter elevation data</a>. The soil BRDF is based on the <a rel="Apollo-Lunar-Module" href="http://adsabs.harvard.edu/full/1966AJ.....71..333H">Hapke/Lommel-Seeliger model</a>. The spectral reflactance of the Apollo 11 soil sample 10084 is available on the <a rel="LSCC" href="http://www.planetary.brown.edu/relabdocs/LSCCsoil.html">Lunar Soil Characterization Consortium web page</a>.
 

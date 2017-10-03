@@ -1,12 +1,11 @@
 # ASBP
 Apollo Soil Brightness Project
 
-This project tries to replicate the optical physical behaviour of the moon's soil, as seen in the Apollo's missions photo shoot (https://www.flickr.com/photos/projectapolloarchive/), using a phisically based 3D rendering software as Mitsuba (https://www.mitsuba-renderer.org/).
+This project tries to replicate the optical physical behaviour of the moon's soil, as seen in the <a rel="projectapolloarchive" href="https://www.flickr.com/photos/projectapolloarchive/">Apollo moon mission photos</a>, using a phisically based 3D rendering software as <a rel="Mitsuba" href="https://www.mitsuba-renderer.org/">Mitsuba</a>.
 
 In particular the project is focused in reproducing the picture AS11-40-5866 (magazine 40/S), but can be used to reproduce other pictures as well.
 
-The soil 3D model is built from the <a rel="LROC"  href="http://wms.lroc.asu.edu/lroc/view_rdr_product/NAC_DTM_APOLLO11_E010N0230">Lunar Reconnaissance Orbiter elevation data</a>.
-The soil BRDF model is based on the <a rel="Apollo-Lunar-Module" href="http://adsabs.harvard.edu/full/1966AJ.....71..333H">Hapke/Lommel-Seeliger model</a>.
+The soil 3D model is built from the <a rel="LROC"  href="http://wms.lroc.asu.edu/lroc/view_rdr_product/NAC_DTM_APOLLO11_E010N0230">Lunar Reconnaissance Orbiter elevation data</a>. The soil BRDF is based on the <a rel="Apollo-Lunar-Module" href="http://adsabs.harvard.edu/full/1966AJ.....71..333H">Hapke/Lommel-Seeliger model</a>.
 
 The <a rel="Apollo-Lunar-Module" href="https://3dwarehouse.sketchup.com/model/b53f86abe90ec6adba3505261195d5/Apollo-Lunar-Module">Apollo Lunar Module 3D model</a> is available on 3D Warehouse and, therefore, is redistributed under the 3D Warehouse <a rel="terms of use" href="https://3dwarehouse.sketchup.com/tos.html">terms of use</a>.
 

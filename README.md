@@ -9,12 +9,8 @@ The soil 3D model is built from the <a rel="LROC"  href="http://wms.lroc.asu.edu
 
 The <a rel="Apollo-Lunar-Module" href="https://3dwarehouse.sketchup.com/model/b53f86abe90ec6adba3505261195d5/Apollo-Lunar-Module">Apollo Lunar Module 3D model</a> is available on 3D Warehouse and, therefore, is redistributed under the 3D Warehouse <a rel="terms of use" href="https://3dwarehouse.sketchup.com/tos.html">terms of use</a>.
 
-The astronauts 3D models are based on the work of <a rel="Max Grueter" href="https://3dwarehouse.sketchup.com/user/1601659553860618556857140/MAX-GRUETER?nav=models">Max Grueter</a> available on 3D Warehouse:
-
-<a rel="Apollo-Astronaut-Spacesuit" href="https://3dwarehouse.sketchup.com/model/283a51b718769a62b207e27937b6e503/Apollo-Astronaut-Spacesuit">Apollo-Astronaut-Spacesuit</a> 
-<a rel="APOLLO-ASTRONAUT" href="https://3dwarehouse.sketchup.com/model/fde506ac9bafc281780ede780b23cff6/APOLLO-ASTRONAUT">APOLLO-ASTRONAUT</a>
-
-Those models are redistributed under the 3D Warehouse <a rel="terms of use" href="https://3dwarehouse.sketchup.com/tos.html">terms of use</a>.
+The astronauts 3D models are based on the work of <a rel="Max Grueter" href="https://3dwarehouse.sketchup.com/user/1601659553860618556857140/MAX-GRUETER?nav=models">Max Grueter</a> available on 3D Warehouse (in partiular <a rel="Apollo-Astronaut-Spacesuit" href="https://3dwarehouse.sketchup.com/model/283a51b718769a62b207e27937b6e503/Apollo-Astronaut-Spacesuit">Apollo-Astronaut-Spacesuit</a> and
+<a rel="APOLLO-ASTRONAUT" href="https://3dwarehouse.sketchup.com/model/fde506ac9bafc281780ede780b23cff6/APOLLO-ASTRONAUT">APOLLO-ASTRONAUT</a>). TThe astronauts 3D models are, therefore, redistributed under the 3D Warehouse <a rel="terms of use" href="https://3dwarehouse.sketchup.com/tos.html">terms of use</a>.
 
 The materials BRDF based on the <a rel="MERL" href="https://www.merl.com/brdf">MERL BRDF Database</a> are copyight of Mitsubishi Electric Research Laboratories.
 

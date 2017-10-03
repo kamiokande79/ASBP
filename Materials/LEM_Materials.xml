@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+
+	<bsdf id="__Glass_Sky_Reflection_-bl_mat-bsdf" type="thindielectric">
+		<float name="intIOR" value="1.000000"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<rgb value="0.640000 0.640000 0.640000" name="specularTransmittance"/>
+	</bsdf>
+
+	<bsdf id="Ascent_Thruster-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.640000 0.640000 0.640000" name="diffuseReflectance"/>
+	</bsdf>
+	<bsdf id="Descent_Thrusters-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.640000 0.640000 0.640000" name="diffuseReflectance"/>
+	</bsdf>
+
+	<bsdf id="__DarkGoldenrod_-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.721569 0.525490 0.043137" name="diffuseReflectance"/>
+	</bsdf>
+	
+	<bsdf id="__DarkGray_-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.317647 0.317647 0.317647" name="diffuseReflectance"/>
+	</bsdf>
+
+
+
+
+	
+	<bsdf type="bumpmap"  id="2024-galv-bl_mat-bsdf">
+		<bsdf type="tabulated">
+			<string name="filename" value="../Materials/MERL/aluminium.bsdf"/>
+		</bsdf>
+		<texture type="scale">
+			<float name="scale" value="0.00025"/>
+
+			<texture type="bitmap">
+				<float name="uscale" value="10.0"/>
+				<float name="vscale" value="10.0"/>
+				<string name="filename" value="../Textures/galvanized.jpg"/>
+			</texture>
+		</texture>
+		
+
+	</bsdf>
+		
+	<bsdf type="roughconductor" id="5056-chromic-bl_mat-bsdf">
+		<string name="material" value="AlAs"/>
+		<float name="alpha" value="0.5"/>
+		<spectrum name="k" filename="../Materials/spd/AlAs.k.spd"/>
+		<spectrum name="eta" filename="../Materials/spd/AlAs.eta.spd"/>
+	</bsdf>
+	
+	<bsdf type="roughconductor" id="Aluminium-bl_mat-bsdf">
+		<string name="material" value="Al"/>
+		<float name="alpha" value="0.2"/>
+		<spectrum name="k" filename="../Materials/spd/Al.k.spd"/>
+		<spectrum name="eta" filename="../Materials/spd/Al.eta.spd"/>
+	</bsdf>
+
+	<bsdf type="tabulated" id="Black_Fabric-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/black-fabric.bsdf"/>
+	</bsdf>
+
+	<bsdf type="tabulated" id="Blue_Fabric-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/blue-fabric.bsdf"/>
+	</bsdf>
+
+
+	<bsdf type="tabulated" id="Red_Fabric-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/red-fabric.bsdf"/>
+	</bsdf>
+
+	<bsdf type="tabulated" id="White_Fabric-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/white-fabric.bsdf"/>
+	</bsdf>
+	
+	<bsdf type="bumpmap" id="Charcoal_Foil-bl_mat-bsdf">
+		<bsdf type="ward">
+			<spectrum name="specularReflectance" value="0.002"/>
+			<spectrum name="diffuseReflectance" value="0.02"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.10"/>
+
+			<texture type="bitmap">
+				<float name="uscale" value="1.0"/>
+				<float name="vscale" value="1.0"/>
+				<string name="filename" value="../Textures/1426-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+	
+	<bsdf type="ward" id="Charcoal_Paint-bl_mat-bsdf">
+		<spectrum name="specularReflectance" value="0.002"/>
+		<spectrum name="diffuseReflectance" value="0.02"/>
+	</bsdf>
+	
+	<bsdf type="bumpmap" id="Copper_Kapton-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Cu"/>
+			<spectrum name="k" filename="../Materials/spd/Cu.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Cu.eta.spd"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.25"/>
+			<texture type="bitmap">
+				<float name="uscale" value="0.5"/>
+				<float name="vscale" value="1.0"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+	
+	<bsdf type="bumpmap" id="Copper_Kapton_Legs-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Cu"/>
+			<spectrum name="k" filename="../Materials/spd/Cu.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Cu.eta.spd"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.15"/>
+			<texture type="bitmap">
+				<float name="uscale" value="0.5"/>
+				<float name="vscale" value="0.5"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+
+	
+	<bsdf type="tabulated" id="Descent_Thruster_Dark-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/black-oxidized-steel.bsdf"/>
+	</bsdf>
+
+	<bsdf type="bumpmap" id="Gold_Kapton-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Au"/>
+			<spectrum name="k" filename="../Materials/spd/Au.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Au.eta.spd"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.25"/>
+			<texture type="bitmap">
+				<float name="uscale" value="0.5"/>
+				<float name="vscale" value="1.0"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+	
+	<bsdf type="bumpmap" id="Gold_Kapton_Legs-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Cu"/>
+			<spectrum name="k" filename="../Materials/spd/Cu.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Cu.eta.spd"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.15"/>
+			<texture type="bitmap">
+				<float name="uscale" value="0.5"/>
+				<float name="vscale" value="0.5"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+	
+	<bsdf type="bumpmap" id="Nickel_Kapton-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Ni_palik"/>
+			<spectrum name="k" filename="../Materials/spd/Ni_palik.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Ni_palik.eta.spd"/>
+		</bsdf>
+
+		<texture type="scale">
+			<float name="scale" value="0.25"/>
+
+			<texture type="bitmap">
+				<float name="uscale" value="1.0"/>
+				<float name="vscale" value="1.0"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+
+	<bsdf type="bumpmap" id="Nickel_Kapton_Legs-bl_mat-bsdf">
+		<bsdf type="conductor">
+			<string name="material" value="Ni_palik"/>
+			<spectrum name="k" filename="../Materials/spd/Ni_palik.k.spd"/>
+			<spectrum name="eta" filename="../Materials/spd/Ni_palik.eta.spd"/>
+		</bsdf>
+		<texture type="scale">
+			<float name="scale" value="0.15"/>
+
+			<texture type="bitmap">
+				<float name="uscale" value="0.5"/>
+				<float name="vscale" value="0.5"/>
+				<string name="filename" value="../Textures/1403-bump.jpg"/>
+			</texture>
+		</texture>
+	</bsdf>
+
+
+	<bsdf type="tabulated" id="Red_Fiber_Glass-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/red-plastic.bsdf"/>
+	</bsdf>
+	
+	
+	<bsdf type="roughconductor" id="Thrusters-bl_mat-bsdf">
+		<string name="material" value="AlAs"/>
+		<float name="alpha" value="0.15"/>
+		<spectrum name="k" filename="../Materials/spd/AlAs.k.spd"/>
+		<spectrum name="eta" filename="../Materials/spd/AlAs.eta.spd"/>
+	</bsdf>
+	
+	<!--<bsdf type="tabulated" id="Thrusters-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/alum-bronze.bsdf"/>
+	</bsdf> -->
+
+	<bsdf type="tabulated" id="White_Paint-bl_mat-bsdf">
+		<string name="filename" value="../Materials/MERL/white-paint.bsdf"/>
+	</bsdf>
+
+</scene>

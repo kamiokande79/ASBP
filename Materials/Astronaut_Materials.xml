@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	<texture type="bitmap" id="US_Flag.jpg">
+		<string name="filename" value="../Textures/US_Flag.jpg"/>
+	</texture>
+	<texture type="bitmap" id="LOGO.png">
+		<string name="filename" value="../Textures/LOGO.png"/>
+	</texture>
+	<bsdf type="roughplastic" id="Logo-bl_mat-bsdf">
+		<float name="alpha" value="0.367879"/>
+		<string name="distribution" value="beckmann"/>
+		<rgb name="specularReflectance" value="0.330000 0.330000 0.330000"/>
+		<ref name="diffuseReflectance" id="LOGO.png"/>
+	</bsdf>
+	<bsdf type="roughplastic" id="US_Flag-bl_mat-bsdf">
+		<float name="alpha" value="0.367879"/>
+		<string name="distribution" value="beckmann"/>
+		<rgb name="specularReflectance" value="0.330000 0.330000 0.330000"/>
+		<ref name="diffuseReflectance" id="US_Flag.jpg"/>
+	</bsdf>
+	<bsdf type="thindielectric" id="Helmet_Glass-bl_mat-bsdf">
+		<float name="intIOR" value="1.000000"/>
+		<rgb name="specularReflectance" value="0.330000 0.330000 0.330000"/>
+		<rgb name="specularTransmittance" value="0.000000 0.000000 0.000000"/>
+	</bsdf>
+	<bsdf id="Zeiss_Glass-bl_mat-bsdf" type="thindielectric">
+		<float name="intIOR" value="1.000000"/>
+		<rgb name="specularReflectance" value="0.330000 0.330000 0.330000"/>
+		<rgb name="specularTransmittance" value="0.000000 0.000000 0.000000"/>
+	</bsdf>
+
+
+	<bsdf id="__Black_-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.000000 0.000000 0.000000" name="diffuseReflectance"/>
+	</bsdf>
+	<bsdf id="Brown-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.227451 0.180392 0.105882" name="diffuseReflectance"/>
+	</bsdf>
+	<bsdf id="Human_Skin-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.330000 0.330000 0.330000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.909804 0.701961 0.623529" name="diffuseReflectance"/>
+	</bsdf>
+	<bsdf id="Zeiss_Optic_Cover-bl_mat-bsdf" type="roughplastic">
+		<string name="distribution" value="beckmann"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<float name="alpha" value="0.367879"/>
+		<rgb value="0.517647 0.501961 0.407843" name="diffuseReflectance"/>
+	</bsdf>
+	
+	<bsdf id="Beige_Velcro-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/beige-fabric.bsdf"/>
+	</bsdf>
+	
+	<bsdf id="Blue_Aluminium-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/alum-blue.bsdf"/>
+	</bsdf>
+	
+	<bsdf id="Blue_Rubber-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/blue-rubber.bsdf"/>
+	</bsdf>
+	
+	<bsdf type="roughconductor" id="Dull_Aluminium-bl_mat-bsdf">
+		<string name="material" value="Al"/>
+		<float name="alpha" value="0.2"/>
+		<spectrum name="k" filename="../Materials/spd/Al.k.spd"/>
+		<spectrum name="eta" filename="../Materials/spd/Al.eta.spd"/>
+	</bsdf>
+	
+	<bsdf id="Glass-bl_mat-bsdf" type="thindielectric">
+		<float name="intIOR" value="1.000000"/>
+		<rgb value="0.500000 0.500000 0.500000" name="specularReflectance"/>
+		<rgb value="0.419608 0.725490 0.811765" name="specularTransmittance"/>
+	</bsdf>
+	
+	<bsdf id="Gray_Fabric-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/dark-gray-fabric.bsdf"/>
+	</bsdf>	
+	
+	<bsdf id="Red_Aluminium-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/alum-red.bsdf"/>
+	</bsdf>
+	
+	<bsdf id="Shader-bl_mat-bsdf" type="coating">
+		<float name="intIOR" value="1.2"/>
+
+		<bsdf type="roughconductor">
+			<string name="material" value="Au"/>
+			<float name="alpha" value="0.001"/>
+		</bsdf>
+	</bsdf>
+	
+	<bsdf id="Silver_Paint-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/silver-paint.bsdf"/>
+	</bsdf>	
+	 
+	 <!-- <bsdf id="Teflon-bl_mat-bsdf" type="irawan">
+			<string name="filename" value="../Materials/MERL/shantung.wv"/>
+			<float name="repeatU" value="2240.0"/>
+			<float name="repeatV" value="1680.0"/>
+			Parameters to the weave pattern file
+			<rgb name="warp_kd" value="0.600, 0.600, 0.600"/>
+			<rgb name="warp_ks" value="0.020, 0.020, 0.020"/>
+			<rgb name="weft_kd" value="0.700, 0.700, 0.700"/>
+			<rgb name="weft_ks" value="0.080, 0.080, 0.080"/>
+	</bsdf> -->
+
+	<bsdf type="tabulated" id="Teflon-bl_mat-bsdf">
+			<string name="filename" value="../Materials/MERL/teflon.bsdf"/>
+	</bsdf>
+	
+	<bsdf id="White_Plastic-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/specular-white-phenolic.bsdf"/>
+	</bsdf>	
+
+	<bsdf id="Yellow_Aluminium-bl_mat-bsdf" type="tabulated">
+		<string name="filename" value="../Materials/MERL/alum-yellow.bsdf"/>
+	</bsdf>
+	
+</scene>

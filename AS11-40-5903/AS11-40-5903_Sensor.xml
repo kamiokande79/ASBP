@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+		
+	<sensor id="Aldrin-view" type="perspective">
+		<sampler type="halton" name="sampler">
+			<integer name="sampleCount" value="128"/>
+		</sampler>
+		<transform name="toWorld">
+			<lookat target="-0.892218, 0.969282, -6.060900" up="0.000592, 0.129302, -0.001249" origin="-0.804788, 0.967961, -6.156163"/>
+		</transform>
+		<film type="ldrfilm" name="film">
+			<float name="shiftX" value="0.000000"/>
+			<string name="pixelFormat" value="rgb"/>
+			<float name="pixelAspectY" value="1.000000"/>
+			<string name="label[10,10]" value="Integrator:$integrator['type'], $film['width']x$film['height'],$sampler['sampleCount']spp, rendertime:$scene['renderTime'],memory:$scene['memUsage']"/>
+			<string name="fileFormat" value="png"/>
+			<boolean name="highQualityEdges" value="false"/>
+			<float name="gamma" value="-1.000000"/>
+			<boolean name="fitHorizontal" value="false"/>
+			<boolean name="banner" value="true"/>
+			<float name="exposure" value="0.000000"/>
+			<float name="pixelAspectX" value="1.000000"/>
+			<rfilter type="gaussian" name="rfilter">
+				<float name="stddev" value="0.500000"/>
+			</rfilter>
+			<integer name="height" value="1024"/>
+			<integer name="width" value="1024"/>
+			<float name="shiftY" value="0.000000"/>
+			<string name="tonemapMethod" value="gamma"/>
+		</film>
+		<float name="farClip" value="100.000000"/>
+		<float name="nearClip" value="0.100000"/>
+		<string name="fovAxis" value="y"/>
+		<float name="fov" value="48.323285"/>
+	</sensor>
+	
+	<sensor id="Aldrin-shadow" type="perspective">
+		<sampler type="halton" name="sampler">
+			<integer name="sampleCount" value="128"/>
+		</sampler>
+		<transform name="toWorld">
+			<lookat up="-0.031923, 0.125294, 0.001808" target="-0.969009, 0.935990, -6.147428" origin="-0.844019, 0.967961, -6.156163"/>
+		</transform>
+		<film type="ldrfilm" name="film">
+			<float name="shiftX" value="0.000000"/>
+			<string name="pixelFormat" value="rgb"/>
+			<float name="pixelAspectY" value="1.000000"/>
+			<string name="label[10,10]" value="Integrator:$integrator['type'], $film['width']x$film['height'],$sampler['sampleCount']spp, rendertime:$scene['renderTime'],memory:$scene['memUsage']"/>
+			<string name="fileFormat" value="png"/>
+			<boolean name="highQualityEdges" value="false"/>
+			<float name="gamma" value="-1.000000"/>
+			<boolean name="fitHorizontal" value="false"/>
+			<boolean name="banner" value="true"/>
+			<float name="exposure" value="0.000000"/>
+			<float name="pixelAspectX" value="1.000000"/>
+			<rfilter type="gaussian" name="rfilter">
+				<float name="stddev" value="0.500000"/>
+			</rfilter>
+			<integer name="height" value="1024"/>
+			<integer name="width" value="1024"/>
+			<float name="shiftY" value="0.000000"/>
+			<string name="tonemapMethod" value="gamma"/>
+		</film>
+		<float name="farClip" value="100.000000"/>
+		<float name="nearClip" value="0.100000"/>
+		<string name="fovAxis" value="y"/>
+		<float name="fov" value="48.323285"/>
+	</sensor>
+	
+	<sensor id="Hasselblad-camera" type="perspective">
+		<sampler type="halton" name="sampler">
+			<integer name="sampleCount" value="128"/>
+		</sampler>
+		<transform name="toWorld">
+			<lookat origin="-3.581500, 1.338716, -3.899070" up="0.041553, 0.120665, -0.020839" target="-3.492654, 1.293863, -3.981625"/>
+		</transform>
+		<film type="ldrfilm" name="film">
+			<float name="shiftX" value="0.000000"/>
+			<string name="pixelFormat" value="rgb"/>
+			<float name="pixelAspectY" value="1.000000"/>
+			<string name="label[10,10]" value="Integrator:$integrator['type'], $film['width']x$film['height'],$sampler['sampleCount']spp, rendertime:$scene['renderTime'],memory:$scene['memUsage']"/>
+			<string name="fileFormat" value="png"/>
+			<boolean name="highQualityEdges" value="false"/>
+			<float name="gamma" value="-1.000000"/>
+			<boolean name="fitHorizontal" value="false"/>
+			<boolean name="banner" value="true"/>
+			<float name="exposure" value="0.000000"/>
+			<float name="pixelAspectX" value="1.000000"/>
+			<rfilter type="gaussian" name="rfilter">
+				<float name="stddev" value="0.500000"/>
+			</rfilter>
+			<integer name="height" value="1024"/>
+			<integer name="width" value="1024"/>
+			<float name="shiftY" value="0.000000"/>
+			<string name="tonemapMethod" value="gamma"/>
+		</film>
+		<float name="farClip" value="100.000000"/>
+		<float name="nearClip" value="0.100000"/>
+		<string name="fovAxis" value="y"/>
+		<float name="fov" value="48.323285"/>
+	</sensor>
+</scene>

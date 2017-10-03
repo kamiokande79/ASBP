@@ -1,5 +1,5 @@
 # ASBP
-Apollo Soil Brightness Project
+<b>Apollo Soil Brightness Project</b>
 
 This project tries to replicate the optical physical behaviour of the moon's soil, as seen in the <a rel="projectapolloarchive" href="https://www.flickr.com/photos/projectapolloarchive/">Apollo moon mission photos</a>, using a phisically based 3D rendering software as <a rel="Mitsuba" href="https://www.mitsuba-renderer.org/">Mitsuba</a>.
 

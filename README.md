@@ -14,6 +14,6 @@ The astronauts 3D models are based on the work of <a rel="Max Grueter" href="htt
 
 The materials based on the <a rel="MERL" href="https://www.merl.com/brdf">MERL BRDF Database</a> are copyight of Mitsubishi Electric Research Laboratories.
 
-With the exception of the Lunar Module 3D model, the astronaut 3D models, and the MERL material BRDFs this content is distributed under a Creative Commons License, see the link below.
+With the exception of the Lunar Module 3D model, the astronaut 3D models and the MERL material BRDFs, this content is distributed under a Creative Commons License, see the link below.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Apollo Soil Brightness Project</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/kamiokande79/ASBP" property="cc:attributionName" rel="cc:attributionURL">Gianluca Molinari</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

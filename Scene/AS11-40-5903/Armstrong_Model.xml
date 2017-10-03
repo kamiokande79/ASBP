@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	<shape type="serialized" id="Armstrong_PLSS_Control_Box.001_PLSS_Control_Box_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.900231 -0.004214 0.007122 -0.006475 0.848678 -0.008783 -0.005737 -0.000594 -3.968156 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Control_Box_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_CO2_Out_Valve_Hose_PLSS_CO2_Out_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.044688 -0.004214 0.007122 -0.006475 0.711461 -0.008783 -0.005737 -0.000594 -3.783884 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_CO2_Out_Valve_0000_m000_0_000000.serialized"/>
+		<ref id="Red_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Suit_Right_Loop.001_Suit_Right_Loop_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.884275 -0.004214 0.007122 -0.006475 0.833303 -0.008783 -0.005737 -0.000594 -3.432631 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Suit_Right_Loop_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Boot_Sole.001_Right_Boot_Sole.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001244 -0.000631 0.000982 -4.457301 -0.000197 0.001528 0.000732 0.135236 -0.001150 0.000420 -0.001187 -2.795487 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Boot_Sole_000_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Rubber-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Zeiss_Lens_Zeiss_Lens_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.741785 -0.004214 0.007122 -0.006475 0.645206 -0.008783 -0.005737 -0.000594 -4.083544 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Zeiss_Lens_0000_m000_0_000000.serialized"/>
+		<ref id="Zeiss_Glass-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Leg_Buttons.001_Right_Leg_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.025134 -0.004214 0.007122 -0.006475 0.578271 -0.008783 -0.005737 -0.000594 -3.366588 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Leg_Buttons_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_Water_InOut_Plug.001_Hose_PLSS_Water_InOut_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.978379 -0.004214 0.007122 -0.006475 0.776279 -0.008783 -0.005737 -0.000594 -3.909651 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_Water_InOut_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Oxy_Indicator_PLSS_Oxy_Indicator_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.827870 -0.004214 0.007122 -0.006475 0.895767 -0.008783 -0.005737 -0.000594 -3.973600 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Oxy_Indicator_0000_m000_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro2_Velcro2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.176246 -0.004214 0.007122 -0.006475 1.482283 -0.008783 -0.005737 -0.000594 -3.847474 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro2_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Glove_Finger_Tips_Left_Glove_Finger_Tips_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.005681 -0.007492 0.002360 -4.056429 -0.007255 0.003888 -0.005121 0.436947 0.003011 -0.004768 -0.007886 -4.199357 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Glove_Finger_Tips_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Rubber-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_OPS_Actuator_OPS_Actuator_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.790896 -0.004214 0.007122 -0.006475 0.837327 -0.008783 -0.005737 -0.000594 -3.834230 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/OPS_Actuator_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Helmet_Glass_Handle_Helmet_Glass_Handle_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.849525 -0.004214 0.007122 -0.006475 1.051649 -0.008783 -0.005737 -0.000594 -4.011580 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Helmet_Glass_Handle_0000_m000_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_OPS_O2_Valve_Knob.001_OPS_O2_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.907716 -0.004214 0.007122 -0.006475 0.780434 -0.008783 -0.005737 -0.000594 -3.760760 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/OPS_O2_Valve_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro8_Velcro8_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.973784 -0.004214 0.007122 -0.006475 1.511146 -0.008783 -0.005737 -0.000594 -3.707368 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro8_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro12.001_Velcro12_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.089374 -0.004214 0.007122 -0.006475 1.395731 -0.008783 -0.005737 -0.000594 -3.523040 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro12_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Electronic_Plug.001_Hose_Electronic_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.850482 -0.004214 0.007122 -0.006475 0.793050 -0.008783 -0.005737 -0.000594 -3.818289 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Electronic_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_OPS_Actuator_1_OPS_Actuator_1_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.762976 -0.004214 0.007122 -0.006475 0.889808 -0.008783 -0.005737 -0.000594 -3.885417 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/OPS_Actuator_1_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Control_Box_Cover.001_PLSS_Control_Box_Cover_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.821746 -0.004214 0.007122 -0.006475 0.899678 -0.008783 -0.005737 -0.000594 -3.969664 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Control_Box_Cover_0000_m000_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Zeiss_Optic_Zeiss_Optic_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.758556 -0.004214 0.007122 -0.006475 0.678983 -0.008783 -0.005737 -0.000594 -4.066268 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Zeiss_Optic_0000_m000_0_000000.serialized"/>
+		<ref id="Silver_Paint-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Arm_Pocket_Right_Arm_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.636170 -0.004214 0.007122 -0.006475 1.064796 -0.008783 -0.005737 -0.000594 -3.727088 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Arm_Pocket_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Electrical_Socket_Knob.001_Electrical_Socket_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.874462 -0.004214 0.007122 -0.006475 0.826364 -0.008783 -0.005737 -0.000594 -3.818276 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Electrical_Socket_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_CO2_Out_Plug.001_Hose_PLSS_CO2_Out_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.052025 -0.004214 0.007122 -0.006475 0.674769 -0.008783 -0.005737 -0.000594 -3.808362 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_CO2_Out_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Red_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS.001_PLSS_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.034107 -0.004214 0.007122 -0.006475 1.373240 -0.008783 -0.005737 -0.000594 -3.811099 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro3_Velcro3_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.206408 -0.004214 0.007122 -0.006475 1.457978 -0.008783 -0.005737 -0.000594 -3.798881 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro3_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Antenna_Antenna_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.953921 -0.004214 0.007122 -0.006475 1.588167 -0.008783 -0.005737 -0.000594 -4.209105 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Antenna_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Suit_Left_Loop.001_Suit_Left_Loop_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.260641 -0.004214 0.007122 -0.006475 0.692692 -0.008783 -0.005737 -0.000594 -3.758933 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Suit_Left_Loop_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Suit_Suit_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.101280 -0.004214 0.007122 -0.006475 0.774646 -0.008783 -0.005737 -0.000594 -3.600999 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Suit_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_O2_In_Valve_Knob.001_PLSS_O2_In_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.010061 -0.004214 0.007122 -0.006475 0.765843 -0.008783 -0.005737 -0.000594 -3.831583 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_O2_In_Valve_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Pressure_Relief.001_Hose_Pressure_Relief_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.919471 -0.004214 0.007122 -0.006475 0.867426 -0.008783 -0.005737 -0.000594 -3.553447 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Pressure_Relief_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Pressure_Relief.001_Hose_Pressure_Relief_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.919471 -0.004214 0.007122 -0.006475 0.867426 -0.008783 -0.005737 -0.000594 -3.553447 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Pressure_Relief_0000_m001_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_Water_InOut_Valve_Hose_PLSS_Water_InOut_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.978442 -0.004214 0.007122 -0.006475 0.815071 -0.008783 -0.005737 -0.000594 -3.887415 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_Water_InOut_Valve_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro12_Velcro11_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.063017 -0.004214 0.007122 -0.006475 1.434148 -0.008783 -0.005737 -0.000594 -3.569040 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro11_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hasselblad_Hasselblad_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.818533 -0.004214 0.007122 -0.006475 0.737126 -0.008783 -0.005737 -0.000594 -3.991576 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hasselblad_0000_m000_0_000000.serialized"/>
+		<ref id="Silver_Paint-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Electronic.001_Hose_Electronic_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.865774 -0.004214 0.007122 -0.006475 0.923584 -0.008783 -0.005737 -0.000594 -3.625848 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Electronic_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Electronic.001_Hose_Electronic_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.865774 -0.004214 0.007122 -0.006475 0.923584 -0.008783 -0.005737 -0.000594 -3.625848 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Electronic_0000_m001_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro7_Velcro7_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.942830 -0.004214 0.007122 -0.006475 1.535329 -0.008783 -0.005737 -0.000594 -3.757079 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro7_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Suit_Central_Strip_Suit_Central_Strip_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.957759 -0.004214 0.007122 -0.006475 0.754359 -0.008783 -0.005737 -0.000594 -3.775697 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Suit_Central_Strip_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Glove_Right_Glove_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.529800 -0.004214 0.007122 -0.006475 0.892187 -0.008783 -0.005737 -0.000594 -3.306478 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Glove_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Helmet.001_Helmet_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.842234 -0.004214 0.007122 -0.006475 1.199916 -0.008783 -0.005737 -0.000594 -4.052853 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Helmet_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_US_Flag_US_Flag_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.146803 -0.004214 0.007122 -0.006475 0.979144 -0.008783 -0.005737 -0.000594 -4.164031 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/US_Flag_0000_m000_0_000000.serialized"/>
+		<ref id="US_Flag-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hasselblad_Handle.001_Hasselblad_Handle_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.845920 -0.004214 0.007122 -0.006475 0.654507 -0.008783 -0.005737 -0.000594 -3.934980 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hasselblad_Handle_0000_m000_0_000000.serialized"/>
+		<ref id="Silver_Paint-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro10_Velcro10_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.032984 -0.004214 0.007122 -0.006475 1.463146 -0.008783 -0.005737 -0.000594 -3.611933 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro10_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Angles_PLSS_Angles_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.015376 -0.004214 0.007122 -0.006475 1.351633 -0.008783 -0.005737 -0.000594 -3.833493 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Angles_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_OPS_Actuator_2_OPS_Actuator_2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.774631 -0.004214 0.007122 -0.006475 0.860445 -0.008783 -0.005737 -0.000594 -3.862497 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/OPS_Actuator_2_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro4_Velcro4_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.235445 -0.004214 0.007122 -0.006475 1.434284 -0.008783 -0.005737 -0.000594 -3.752040 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro4_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Foot_Pocket_Left_Foot_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.719707 -0.004214 0.007122 -0.006475 0.376601 -0.008783 -0.005737 -0.000594 -3.185677 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Foot_Pocket_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Pressure_Relief_Valve_Hose_Pressure_Relief_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.929843 -0.004214 0.007122 -0.006475 0.727833 -0.008783 -0.005737 -0.000594 -3.704409 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Pressure_Relief_Valve_0000_m000_0_000000.serialized"/>
+		<ref id="Red_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Glove_Finger_Tips_Right_Glove_Finger_Tips_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.546930 -0.004214 0.007122 -0.006475 0.856638 -0.008783 -0.005737 -0.000594 -3.288631 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Glove_Finger_Tips_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Rubber-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Helmet_Glass.001_Helmet_Glass_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.790189 -0.004214 0.007122 -0.006475 1.105161 -0.008783 -0.005737 -0.000594 -4.108347 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Helmet_Glass_0000_m000_0_000000.serialized"/>
+		<ref id="Helmet_Glass-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Helmet_Shader.001_Helmet_Shader_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.788438 -0.004214 0.007122 -0.006475 1.108179 -0.008783 -0.005737 -0.000594 -4.111499 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Helmet_Shader_0000_m000_0_000000.serialized"/>
+		<ref id="Shader-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Left_Strap_PLSS_Left_Strap_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.021778 -0.004214 0.007122 -0.006475 1.118501 -0.008783 -0.005737 -0.000594 -4.042299 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Left_Strap_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Front_Logo_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.789009 -0.004214 0.007122 -0.006475 0.951654 -0.008783 -0.005737 -0.000594 -3.868055 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Front_Logo_0000_m000_0_000000.serialized"/>
+		<ref id="Logo-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Boot_Teflon_Fabric.001_Left_Boot_Teflon_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001351 0.000476 0.000925 -4.776015 -0.000153 0.001410 -0.000948 0.458986 -0.001029 -0.000834 -0.001074 -3.109578 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Boot_Teflon_Fabric_000_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_Control_Box.001_Hose_PLSS_Control_Box_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.745469 -0.004214 0.007122 -0.006475 1.175717 -0.008783 -0.005737 -0.000594 -3.902014 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_Control_Box_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Helmet_Shader_Handle_Helmet_Shader_Handle_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.846166 -0.004214 0.007122 -0.006475 1.045203 -0.008783 -0.005737 -0.000594 -4.015107 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Helmet_Shader_Handle_0000_m000_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Boot_Teflon_Fabric.001_Right_Boot_Teflon_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001244 -0.000631 0.000982 -4.406675 -0.000197 0.001528 0.000732 0.207752 -0.001150 0.000420 -0.001187 -2.875739 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Boot_Teflon_Fabric_000_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Boot_Gray_Fabric_Lace.001_Left_Boot_Gray_Fabric_Lace.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001351 0.000476 0.000925 -4.785313 -0.000153 0.001410 -0.000948 0.544428 -0.001029 -0.000834 -0.001074 -3.086489 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Boot_Gray_Fabric_Lace_000_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Glove_Left_Glove_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.005558 -0.007532 0.002523 -4.084809 -0.007375 0.003749 -0.005054 0.445938 0.002951 -0.004816 -0.007879 -4.199767 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Glove_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_CO2_Out.001_Hose_PLSS_CO2_Out_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.220099 -0.004214 0.007122 -0.006475 0.830207 -0.008783 -0.005737 -0.000594 -3.756889 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_CO2_Out_0000_m000_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_CO2_Out.001_Hose_PLSS_CO2_Out_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.220099 -0.004214 0.007122 -0.006475 0.830207 -0.008783 -0.005737 -0.000594 -3.756889 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_CO2_Out_0000_m001_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Pressure_Relief_Valve_Knob.001_Pressure_Relief_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.927751 -0.004214 0.007122 -0.006475 0.724563 -0.008783 -0.005737 -0.000594 -3.705556 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Pressure_Relief_Valve_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Boot_Gray_Fabric.001_Right_Boot_Gray_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001244 -0.000631 0.000982 -4.475322 -0.000197 0.001528 0.000732 0.220849 -0.001150 0.000420 -0.001187 -2.831498 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Boot_Gray_Fabric_000_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_Water_InOut.001_Hose_PLSS_Water_InOut_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.160602 -0.004214 0.007122 -0.006475 0.891259 -0.008783 -0.005737 -0.000594 -3.848926 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_Water_InOut_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_Water_InOut.001_Hose_PLSS_Water_InOut_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.160602 -0.004214 0.007122 -0.006475 0.891259 -0.008783 -0.005737 -0.000594 -3.848926 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_Water_InOut_0000_m001_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro9_Velcro9_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.003950 -0.004214 0.007122 -0.006475 1.486836 -0.008783 -0.005737 -0.000594 -3.658770 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro9_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro1_Velcro1_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.145291 -0.004214 0.007122 -0.006475 1.506468 -0.008783 -0.005737 -0.000594 -3.897187 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro1_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_OPS_O2_Valve_Hose_OPS_O2_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.909353 -0.004214 0.007122 -0.006475 0.783729 -0.008783 -0.005737 -0.000594 -3.759073 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_OPS_O2_Valve_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_CO2_Out_Valve_Knob.001_PLSS_CO2_Out_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.043705 -0.004214 0.007122 -0.006475 0.708034 -0.008783 -0.005737 -0.000594 -3.785799 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_CO2_Out_Valve_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Foot_Pocket_Right_Foot_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.340067 -0.004214 0.007122 -0.006475 0.214736 -0.008783 -0.005737 -0.000594 -2.968825 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Foot_Pocket_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro6_Velcro6_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.285851 -0.004214 0.007122 -0.006475 1.367727 -0.008783 -0.005737 -0.000594 -3.659011 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro6_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Suit_Buttons_Suit_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.053322 -0.004214 0.007122 -0.006475 0.612692 -0.008783 -0.005737 -0.000594 -3.579295 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Suit_Buttons_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_O2_In_Valve_Hose_PLSS_O2_In_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.011697 -0.004214 0.007122 -0.006475 0.769139 -0.008783 -0.005737 -0.000594 -3.829897 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_O2_In_Valve_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Boot_Gray_Fabric.001_Left_Boot_Gray_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001351 0.000476 0.000925 -4.791249 -0.000153 0.001410 -0.000948 0.537104 -0.001029 -0.000834 -0.001074 -3.081563 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Boot_Gray_Fabric_000_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Water_InOut_Valve_Knob.001_PLSS_Water_InOut_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.976805 -0.004214 0.007122 -0.006475 0.811775 -0.008783 -0.005737 -0.000594 -3.889101 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Water_InOut_Valve_Knob_0000_m000_0_000000.serialized"/>
+		<ref id="Yellow_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Leg_Pocket_Left_Leg_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.304739 -0.004214 0.007122 -0.006475 0.425456 -0.008783 -0.005737 -0.000594 -3.580882 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Leg_Pocket_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_O2_In.001_Hose_PLSS_O2_In_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.181660 -0.004214 0.007122 -0.006475 0.842634 -0.008783 -0.005737 -0.000594 -3.815773 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_O2_In_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_O2_In.001_Hose_PLSS_O2_In_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.181660 -0.004214 0.007122 -0.006475 0.842634 -0.008783 -0.005737 -0.000594 -3.815773 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_O2_In_0000_m001_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Control_Box_Switch_PLSS_Control_Box_Switch_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.768999 -0.004214 0.007122 -0.006475 0.894466 -0.008783 -0.005737 -0.000594 -3.955434 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Control_Box_Switch_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Left_Boot_Sole.001_Left_Boot_Sole.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001351 0.000476 0.000925 -4.856533 -0.000153 0.001410 -0.000948 0.498963 -0.001029 -0.000834 -0.001074 -3.022942 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Left_Boot_Sole_000_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Rubber-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Velcro5_Velcro5_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.259498 -0.004214 0.007122 -0.006475 1.406137 -0.008783 -0.005737 -0.000594 -3.705007 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Velcro5_0000_m000_0_000000.serialized"/>
+		<ref id="Beige_Velcro-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_PLSS_O2_In_Plug.001_Hose_PLSS_O2_In_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.011045 -0.004214 0.007122 -0.006475 0.731988 -0.008783 -0.005737 -0.000594 -3.854770 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_PLSS_O2_In_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Buttons_PLSS_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.058144 -0.004214 0.007122 -0.006475 1.294125 -0.008783 -0.005737 -0.000594 -3.760067 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Buttons_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_PLSS_Right_Strap_PLSS_Right_Strap_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.776342 -0.004214 0.007122 -0.006475 1.153489 -0.008783 -0.005737 -0.000594 -3.872452 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/PLSS_Right_Strap_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_OPS_O2.001_Hose_OPS_O2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.833348 -0.004214 0.007122 -0.006475 1.085697 -0.008783 -0.005737 -0.000594 -3.649987 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_OPS_O2_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_OPS_O2.001_Hose_OPS_O2_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.833348 -0.004214 0.007122 -0.006475 1.085697 -0.008783 -0.005737 -0.000594 -3.649987 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_OPS_O2_0000_m001_0_000000.serialized"/>
+		<ref id="White_Plastic-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Boot_Gray_Fabric_Lace.001_Right_Boot_Gray_Fabric_Lace.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.001244 -0.000631 0.000982 -4.482605 -0.000197 0.001528 0.000732 0.230000 -0.001150 0.000420 -0.001187 -2.831104 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Boot_Gray_Fabric_Lace_000_0000_m000_0_000000.serialized"/>
+		<ref id="Gray_Fabric-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_OPS_O2_Plug.001_Hose_OPS_O2_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.881468 -0.004214 0.007122 -0.006475 0.748903 -0.008783 -0.005737 -0.000594 -3.762057 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_OPS_O2_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Right_Leg_Patch.001_Right_Leg_Patch_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.047493 -0.004214 0.007122 -0.006475 0.529082 -0.008783 -0.005737 -0.000594 -3.336239 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Right_Leg_Patch_0000_m000_0_000000.serialized"/>
+		<ref id="Teflon-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Pressure_Relief_Plug.001_Hose_Pressure_Relief_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.897817 -0.004214 0.007122 -0.006475 0.696752 -0.008783 -0.005737 -0.000594 -3.701645 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Pressure_Relief_Plug_0000_m000_0_000000.serialized"/>
+		<ref id="Red_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Hose_Electronic_Socket_Hose_Electronic_Socket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.876098 -0.004214 0.007122 -0.006475 0.829660 -0.008783 -0.005737 -0.000594 -3.816590 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Hose_Electronic_Socket_0000_m000_0_000000.serialized"/>
+		<ref id="Blue_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Body_Buttons.001_Body_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -3.974765 -0.004214 0.007122 -0.006475 0.721189 -0.008783 -0.005737 -0.000594 -3.744779 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Body_Buttons_0000_m000_0_000000.serialized"/>
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+	<shape type="serialized" id="Armstrong_Logo_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.003938 0.005174 0.008254 -4.165329 -0.004214 0.007122 -0.006475 1.416131 -0.008783 -0.005737 -0.000594 -3.630314 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/AS11-40-5903/Armstrong/Logo_0000_m000_0_000000.serialized"/>
+		<ref id="Logo-bl_mat-bsdf" name="bsdf"/>
+	</shape>
+</scene>

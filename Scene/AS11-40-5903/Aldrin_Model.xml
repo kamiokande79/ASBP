@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	<shape type="serialized" id="Aldrin_PLSS_Control_Box_Cover.001_PLSS_Control_Box_Cover_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.625140 -0.003260 0.009306 -0.003630 0.649683 0.009359 0.004180 0.002310 -6.125749 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Control_Box_Cover_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Left_Strap_PLSS_Left_Strap_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.368027 -0.003260 0.009306 -0.003630 0.813513 0.009359 0.004180 0.002310 -6.110756 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Left_Strap_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Helmet_Glass.001_Helmet_Glass_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.587402 -0.003260 0.009306 -0.003630 0.879601 0.009359 0.004180 0.002310 -6.035386 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Helmet_Glass-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Helmet_Glass_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Glove_Finger_Tips_Left_Glove_Finger_Tips_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003227 0.008677 -0.002878 -0.501553 -0.009015 0.002516 -0.002525 0.196877 -0.001513 0.003517 0.008906 -5.806925 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Rubber-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Glove_Finger_Tips_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Electronic_Socket_Hose_Electronic_Socket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.606267 -0.003260 0.009306 -0.003630 0.537430 0.009359 0.004180 0.002310 -6.261141 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Electronic_Socket_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_CO2_Out_Plug.001_Hose_PLSS_CO2_Out_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.479622 -0.003260 0.009306 -0.003630 0.341078 0.009359 0.004180 0.002310 -6.240724 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Red_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_CO2_Out_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Foot_Pocket_Right_Foot_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.406025 -0.003260 0.009306 -0.003630 -0.343029 0.009359 0.004180 0.002310 -6.965982 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Foot_Pocket_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Helmet_Glass_Handle_Helmet_Glass_Handle_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.553983 -0.003260 0.009306 -0.003630 0.792948 0.009359 0.004180 0.002310 -6.119780 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Helmet_Glass_Handle_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro5_Velcro5_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.095482 -0.003260 0.009306 -0.003630 0.947376 0.009359 0.004180 0.002310 -6.511769 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro5_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_OPS_O2_Valve_Hose_OPS_O2_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.592100 -0.003260 0.009306 -0.003630 0.473246 0.009359 0.004180 0.002310 -6.308084 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_OPS_O2_Valve_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Boot_Sole.001_Right_Boot_Sole.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001250 0.000972 -0.000633 -0.331303 -0.000299 0.001169 0.001205 -0.485991 0.001121 -0.000772 0.001028 -7.121187 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Rubber-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Boot_Sole_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Suit_Central_Strip_Suit_Central_Strip_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.551922 -0.003260 0.009306 -0.003630 0.435508 0.009359 0.004180 0.002310 -6.287022 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Suit_Central_Strip_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Boot_Gray_Fabric.001_Left_Boot_Gray_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001353 -0.000001 -0.001038 0.123390 -0.000312 0.001626 -0.000409 -0.144479 0.000990 0.000515 0.001290 -6.943753 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Boot_Gray_Fabric_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Pressure_Relief.001_Hose_Pressure_Relief_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.579673 -0.003260 0.009306 -0.003630 0.506795 0.009359 0.004180 0.002310 -6.527423 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Pressure_Relief_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Pressure_Relief.001_Hose_Pressure_Relief_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.579673 -0.003260 0.009306 -0.003630 0.506795 0.009359 0.004180 0.002310 -6.527423 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Pressure_Relief_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_Water_InOut.001_Hose_PLSS_Water_InOut_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.313900 -0.003260 0.009306 -0.003630 0.521858 0.009359 0.004180 0.002310 -6.253274 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_Water_InOut_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_Water_InOut.001_Hose_PLSS_Water_InOut_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.313900 -0.003260 0.009306 -0.003630 0.521858 0.009359 0.004180 0.002310 -6.253274 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_Water_InOut_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro8_Velcro8_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.341279 -0.003260 0.009306 -0.003630 1.126605 0.009359 0.004180 0.002310 -6.522959 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro8_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Front_Logo_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.652361 -0.003260 0.009306 -0.003630 0.686820 0.009359 0.004180 0.002310 -6.235189 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Logo-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Front_Logo_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_Water_InOut_Plug.001_Hose_PLSS_Water_InOut_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.513538 -0.003260 0.009306 -0.003630 0.477683 0.009359 0.004180 0.002310 -6.162131 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_Water_InOut_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Leg_Pocket_Left_Leg_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.325402 -0.003260 0.009306 -0.003630 -0.010256 0.009359 0.004180 0.002310 -6.415504 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Leg_Pocket_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Foot_Pocket_Left_Foot_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 0.021901 -0.003260 0.009306 -0.003630 -0.253558 0.009359 0.004180 0.002310 -6.804037 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Foot_Pocket_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro7_Velcro7_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.359782 -0.003260 0.009306 -0.003630 1.168153 0.009359 0.004180 0.002310 -6.478849 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro7_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Glove_Right_Glove_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.970328 -0.003260 0.009306 -0.003630 0.588963 0.009359 0.004180 0.002310 -6.759990 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Glove_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Boot_Teflon_Fabric.001_Right_Boot_Teflon_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001250 0.000972 -0.000633 -0.352874 -0.000299 0.001169 0.001205 -0.387346 0.001121 -0.000772 0.001028 -7.057423 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Boot_Teflon_Fabric_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Suit_Buttons_Suit_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.516757 -0.003260 0.009306 -0.003630 0.235626 0.009359 0.004180 0.002310 -6.450074 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Suit_Buttons_0000_m000_0_000000.serialized"/>
+	</shape>
+	<!--<shape type="serialized" id="Aldrin_Suit_Left_Loop.001_Suit_Left_Loop_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.279475 -0.003260 0.009306 -0.003630 0.289145 0.009359 0.004180 0.002310 -6.300128 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Suit_Left_Loop_0000_m000_0_000000.serialized"/>
+	</shape>-->
+	<shape type="serialized" id="Aldrin_Helmet_Shader.001_Helmet_Shader_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.587977 -0.003260 0.009306 -0.003630 0.883568 0.009359 0.004180 0.002310 -6.032927 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Shader-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Helmet_Shader_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_O2_In_Valve_Knob.001_PLSS_O2_In_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.493373 -0.003260 0.009306 -0.003630 0.443017 0.009359 0.004180 0.002310 -6.236958 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_O2_In_Valve_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Helmet.001_Helmet_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.517510 -0.003260 0.009306 -0.003630 0.942463 0.009359 0.004180 0.002310 -6.112393 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Helmet_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_OPS_O2.001_Hose_OPS_O2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.594875 -0.003260 0.009306 -0.003630 0.755411 0.009359 0.004180 0.002310 -6.479070 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_OPS_O2_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_OPS_O2.001_Hose_OPS_O2_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.594875 -0.003260 0.009306 -0.003630 0.755411 0.009359 0.004180 0.002310 -6.479070 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_OPS_O2_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_US_Flag_US_Flag_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.273676 -0.003260 0.009306 -0.003630 0.672630 0.009359 0.004180 0.002310 -5.965428 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="US_Flag-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/US_Flag_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_Water_InOut_Valve_Hose_PLSS_Water_InOut_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.505253 -0.003260 0.009306 -0.003630 0.509487 0.009359 0.004180 0.002310 -6.192450 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_Water_InOut_Valve_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Glove_Left_Glove_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003083 0.008682 -0.003016 -0.471899 -0.009080 0.002385 -0.002417 0.197417 -0.001423 0.003594 0.008891 -5.809518 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Glove_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Pressure_Relief_Plug.001_Hose_Pressure_Relief_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.631827 -0.003260 0.009306 -0.003630 0.383182 0.009359 0.004180 0.002310 -6.344226 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Red_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Pressure_Relief_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Control_Box_Switch_PLSS_Control_Box_Switch_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.678474 -0.003260 0.009306 -0.003630 0.656706 0.009359 0.004180 0.002310 -6.136614 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Control_Box_Switch_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS.001_PLSS_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.310311 -0.003260 0.009306 -0.003630 1.001580 0.009359 0.004180 0.002310 -6.393241 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Electronic_Plug.001_Hose_Electronic_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.640433 -0.003260 0.009306 -0.003630 0.510649 0.009359 0.004180 0.002310 -6.250429 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Electronic_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Right_Strap_PLSS_Right_Strap_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.610274 -0.003260 0.009306 -0.003630 0.880525 0.009359 0.004180 0.002310 -6.275489 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Right_Strap_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro1_Velcro1_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.159951 -0.003260 0.009306 -0.003630 1.112875 0.009359 0.004180 0.002310 -6.342960 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro1_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Boot_Gray_Fabric_Lace.001_Left_Boot_Gray_Fabric_Lace.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001353 -0.000001 -0.001038 0.120119 -0.000312 0.001626 -0.000409 -0.134934 0.000990 0.000515 0.001290 -6.940382 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Boot_Gray_Fabric_Lace_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_O2_In.001_Hose_PLSS_O2_In_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.309828 -0.003260 0.009306 -0.003630 0.463563 0.009359 0.004180 0.002310 -6.275456 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_O2_In_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_O2_In.001_Hose_PLSS_O2_In_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.309828 -0.003260 0.009306 -0.003630 0.463563 0.009359 0.004180 0.002310 -6.275456 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_O2_In_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_OPS_Actuator_1_OPS_Actuator_1_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.692163 -0.003260 0.009306 -0.003630 0.639700 0.009359 0.004180 0.002310 -6.203575 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/OPS_Actuator_1_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Angles_PLSS_Angles_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.331903 -0.003260 0.009306 -0.003630 0.991168 0.009359 0.004180 0.002310 -6.365953 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Angles_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Pressure_Relief_Valve_Hose_Pressure_Relief_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.592561 -0.003260 0.009306 -0.003630 0.403891 0.009359 0.004180 0.002310 -6.349581 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Red_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Pressure_Relief_Valve_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_OPS_Actuator_OPS_Actuator_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.684256 -0.003260 0.009306 -0.003630 0.572170 0.009359 0.004180 0.002310 -6.242704 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/OPS_Actuator_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Oxy_Indicator_PLSS_Oxy_Indicator_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.619934 -0.003260 0.009306 -0.003630 0.645100 0.009359 0.004180 0.002310 -6.121254 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Oxy_Indicator_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Leg_Patch.001_Right_Leg_Patch_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.567801 -0.003260 0.009306 -0.003630 0.109123 0.009359 0.004180 0.002310 -6.668001 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Leg_Patch_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Leg_Buttons.001_Right_Leg_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.573238 -0.003260 0.009306 -0.003630 0.167739 0.009359 0.004180 0.002310 -6.648630 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Leg_Buttons_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_CO2_Out_Valve_Knob.001_PLSS_CO2_Out_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.480882 -0.003260 0.009306 -0.003630 0.369988 0.009359 0.004180 0.002310 -6.269835 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_CO2_Out_Valve_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Suit_Suit_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.425512 -0.003260 0.009306 -0.003630 0.378444 0.009359 0.004180 0.002310 -6.466724 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Suit_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_O2_In_Valve_Hose_PLSS_O2_In_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.491085 -0.003260 0.009306 -0.003630 0.445303 0.009359 0.004180 0.002310 -6.239392 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_O2_In_Valve_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_CO2_Out_Valve_Hose_PLSS_CO2_Out_Valve_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.479208 -0.003260 0.009306 -0.003630 0.372534 0.009359 0.004180 0.002310 -6.272499 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Red_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_CO2_Out_Valve_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_OPS_O2_Plug.001_Hose_OPS_O2_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.627845 -0.003260 0.009306 -0.003630 0.449039 0.009359 0.004180 0.002310 -6.296439 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_OPS_O2_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro4_Velcro4_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.106563 -0.003260 0.009306 -0.003630 0.990153 0.009359 0.004180 0.002310 -6.471393 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro4_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Body_Buttons.001_Body_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.547403 -0.003260 0.009306 -0.003630 0.393300 0.009359 0.004180 0.002310 -6.310333 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Body_Buttons_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Buttons_PLSS_Buttons_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.313215 -0.003260 0.009306 -0.003630 0.910201 0.009359 0.004180 0.002310 -6.426143 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Buttons_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Control_Box.001_PLSS_Control_Box_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.563608 -0.003260 0.009306 -0.003630 0.579500 0.009359 0.004180 0.002310 -6.118569 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Control_Box_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Electronic.001_Hose_Electronic_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.609300 -0.003260 0.009306 -0.003630 0.589357 0.009359 0.004180 0.002310 -6.467551 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Electronic_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_Electronic.001_Hose_Electronic_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.609300 -0.003260 0.009306 -0.003630 0.589357 0.009359 0.004180 0.002310 -6.467551 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_Electronic_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro12.001_Velcro12_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.278757 -0.003260 0.009306 -0.003630 0.948182 0.009359 0.004180 0.002310 -6.680802 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro12_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Boot_Sole.001_Left_Boot_Sole.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001353 -0.000001 -0.001038 0.170246 -0.000312 0.001626 -0.000409 -0.210583 0.000990 0.000515 0.001290 -6.994623 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Rubber-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Boot_Sole_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_CO2_Out.001_Hose_PLSS_CO2_Out_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.281886 -0.003260 0.009306 -0.003630 0.429057 0.009359 0.004180 0.002310 -6.331384 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_CO2_Out_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_CO2_Out.001_Hose_PLSS_CO2_Out_0000_m001_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.281886 -0.003260 0.009306 -0.003630 0.429057 0.009359 0.004180 0.002310 -6.331384 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_CO2_Out_0000_m001_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro9_Velcro9_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.323460 -0.003260 0.009306 -0.003630 1.085389 0.009359 0.004180 0.002310 -6.565928 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro9_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Arm_Pocket_Right_Arm_Pocket_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.782209 -0.003260 0.009306 -0.003630 0.807002 0.009359 0.004180 0.002310 -6.392442 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Arm_Pocket_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_Control_Box.001_Hose_PLSS_Control_Box_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.631140 -0.003260 0.009306 -0.003630 0.916093 0.009359 0.004180 0.002310 -6.250575 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_Control_Box_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Boot_Gray_Fabric_Lace.001_Right_Boot_Gray_Fabric_Lace.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001250 0.000972 -0.000633 -0.278373 -0.000299 0.001169 0.001205 -0.396959 0.001121 -0.000772 0.001028 -7.108509 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Boot_Gray_Fabric_Lace_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Boot_Gray_Fabric.001_Right_Boot_Gray_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001250 0.000972 -0.000633 -0.287761 -0.000299 0.001169 0.001205 -0.403411 0.001121 -0.000772 0.001028 -7.105830 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gray_Fabric-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Boot_Gray_Fabric_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Right_Glove_Finger_Tips_Right_Glove_Finger_Tips_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.965078 -0.003260 0.009306 -0.003630 0.547165 0.009359 0.004180 0.002310 -6.770042 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Rubber-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Right_Glove_Finger_Tips_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Hose_PLSS_O2_In_Plug.001_Hose_PLSS_O2_In_Plug_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.499247 -0.003260 0.009306 -0.003630 0.415742 0.009359 0.004180 0.002310 -6.206852 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Blue_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Hose_PLSS_O2_In_Plug_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro2_Velcro2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.141449 -0.003260 0.009306 -0.003630 1.071325 0.009359 0.004180 0.002310 -6.387072 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro2_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_OPS_Actuator_2_OPS_Actuator_2_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.690999 -0.003260 0.009306 -0.003630 0.604203 0.009359 0.004180 0.002310 -6.219759 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Dull_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/OPS_Actuator_2_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Pressure_Relief_Valve_Knob.001_Pressure_Relief_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.595330 -0.003260 0.009306 -0.003630 0.401647 0.009359 0.004180 0.002310 -6.347661 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Pressure_Relief_Valve_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Left_Boot_Teflon_Fabric.001_Left_Boot_Teflon_Fabric.000_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.001353 -0.000001 -0.001038 0.090619 -0.000312 0.001626 -0.000409 -0.207710 0.000990 0.000515 0.001290 -6.898506 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Left_Boot_Teflon_Fabric_000_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_PLSS_Water_InOut_Valve_Knob.001_PLSS_Water_InOut_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.507540 -0.003260 0.009306 -0.003630 0.507201 0.009359 0.004180 0.002310 -6.190015 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/PLSS_Water_InOut_Valve_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro12_Velcro11_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.289409 -0.003260 0.009306 -0.003630 1.001024 0.009359 0.004180 0.002310 -6.643642 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro11_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Helmet_Shader_Handle_Helmet_Shader_Handle_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.558587 -0.003260 0.009306 -0.003630 0.788570 0.009359 0.004180 0.002310 -6.114790 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="White_Plastic-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Helmet_Shader_Handle_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro3_Velcro3_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.123631 -0.003260 0.009306 -0.003630 1.030115 0.009359 0.004180 0.002310 -6.430037 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro3_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Antenna_Antenna_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.291984 -0.003260 0.009306 -0.003630 1.307094 0.009359 0.004180 0.002310 -6.050665 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Antenna_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_OPS_O2_Valve_Knob.001_OPS_O2_Valve_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.594388 -0.003260 0.009306 -0.003630 0.470962 0.009359 0.004180 0.002310 -6.305649 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/OPS_O2_Valve_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<!-- <shape type="serialized" id="Aldrin_Suit_Right_Loop.001_Suit_Right_Loop_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.634039 -0.003260 0.009306 -0.003630 0.459963 0.009359 0.004180 0.002310 -6.636284 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Teflon-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Suit_Right_Loop_0000_m000_0_000000.serialized"/>
+	</shape> -->
+	<shape type="serialized" id="Aldrin_Logo_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.190250 -0.003260 0.009306 -0.003630 0.967921 0.009359 0.004180 0.002310 -6.583488 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Logo-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Logo_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Electrical_Socket_Knob.001_Electrical_Socket_Knob_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.608554 -0.003260 0.009306 -0.003630 0.535144 0.009359 0.004180 0.002310 -6.258707 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Yellow_Aluminium-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Electrical_Socket_Knob_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro6_Velcro6_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.084831 -0.003260 0.009306 -0.003630 0.894542 0.009359 0.004180 0.002310 -6.548926 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro6_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape type="serialized" id="Aldrin_Velcro10_Velcro10_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="0.003490 -0.002516 -0.009586 -0.306394 -0.003260 0.009306 -0.003630 1.045431 0.009359 0.004180 0.002310 -6.607280 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Beige_Velcro-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/AS11-40-5903/Aldrin/Velcro10_0000_m000_0_000000.serialized"/>
+	</shape>
+</scene>

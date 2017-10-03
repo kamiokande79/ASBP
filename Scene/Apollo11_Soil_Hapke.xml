@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	
+	<bsdf type="tabulated" id="Moon_Soil-bl_mat-bsdf">
+		
+		<string name="filename" value="../Materials/moonsoil/hapke_improved_indicatrix_10084_1.bsdf"/>
+		 
+	</bsdf>
+
+
+	<shape id="NAC_DTM_APOLLO11_LANDING_SITE_NAC_DTM_APOLLO11_LANDING_SITE" type="serialized">
+		<ref id="Moon_Soil-bl_mat-bsdf" name="bsdf"/>
+		<transform name="toWorld">
+			<matrix value="0.999159 0.031666 -0.026038 0.016114 0.026065 -0.000416 0.999660 0.407042 0.031644 -0.999498 -0.001241 -0.028695 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<string name="filename" value="../Scene/NAC_DTM_APOLLO11_LANDING_SITE_SMALL.serialized"/>
+	</shape>
+</scene>

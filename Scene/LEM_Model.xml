@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- # Main Scene File -->
+<scene version="0.5.1">
+	<shape id="instance_0.183_ID2052_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2052_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.143_ID526_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID526_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.151_ID583_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID583_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0_ID3_0000_m000_0.000000" type="serialized">
+		<ref id="5056-chromic-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID3_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0_ID3_0000_m001_0.000000" type="serialized">
+		<ref id="2024-galv-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID3_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0_ID3_0000_m002_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID3_0000_m002_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0_ID3_0000_m003_0.000000" type="serialized">
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID3_0000_m003_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0_ID3_0000_m004_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID3_0000_m004_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.117_ID1624_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1624_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0_ID810_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID810_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.137_ID1768_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1768_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.037_ID250_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID250_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.040_ID1076_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1076_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.001_ID816_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID816_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.222_ID2302_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2302_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.199_ID2148_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2148_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.181_ID2040_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2040_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.142_ID520_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID520_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.022_ID150_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID150_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.160_ID1914_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1914_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.118_ID1632_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1632_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.086_ID1394_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1394_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.131_ID1728_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1728_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.060_ID394_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID394_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.027_ID180_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID180_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.002_ID824_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID824_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.144_ID1816_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1816_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.054_ID358_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fiber_Glass-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID358_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.165_ID698_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID698_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.122_ID1660_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1660_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.150_ID1852_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1852_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.011_ID887_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID887_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.161_ID1920_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1920_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.082_ID1364_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1364_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.186_ID2070_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2070_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.099_ID1492_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1492_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.226_ID2326_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2326_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.015_ID911_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID911_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.035_ID236_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID236_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.035_ID236_0000_m001_0.000000" type="serialized">
+		<ref id="2024-galv-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID236_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.052_ID344_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID344_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.003_ID830_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID830_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.135_ID478_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID478_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.172_ID746_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID746_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.172_ID746_0000_m001_0.000000" type="serialized">
+		<ref id="Dull_Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID746_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.057_ID1192_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1192_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.164_ID690_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID690_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.033_ID1025_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1025_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.171_ID738_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID738_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.187_ID2076_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2076_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.155_ID1884_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1884_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.161_ID668_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID668_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.004_ID29_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID29_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.208_ID2204_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2204_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.026_ID174_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID174_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.193_ID2112_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2112_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.112_ID1584_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1584_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.224_ID2314_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2314_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.238_ID2398_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2398_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.155_ID620_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID620_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.213_ID2240_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2240_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.027_ID987_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID987_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.203_ID2172_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2172_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.172_ID1986_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1986_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.128_ID1706_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1706_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.128_ID1706_0000_m001_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1706_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.055_ID364_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fiber_Glass-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID364_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.057_ID376_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID376_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.014_ID905_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID905_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.051_ID1152_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1152_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.135_ID1754_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1754_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.230_ID2350_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2350_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.090_ID1426_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1426_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.192_ID2106_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2106_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.163_ID1932_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1932_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.079_ID1344_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1344_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.029_ID999_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID999_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.036_ID242_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID242_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.150_ID575_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID575_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.085_ID1386_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1386_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.030_ID1005_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1005_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.008_ID53_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID53_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.018_ID117_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID117_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape type="serialized" id="Probe_Probe_0000_m000_0.000000">
+		<transform name="toWorld">
+			<matrix value="-0.038741 0.000877 -0.200863 -1.493563 0.001481 0.039909 -0.045660 -0.328840 0.009847 -0.002551 -0.783370 -4.989695 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+		<ref name="bsdf" id="Gold_Kapton_Legs-bl_mat-bsdf"/>
+		<string name="filename" value="../Scene/LEM/Probe_0000_m000_0_000000.serialized"/>
+	</shape>
+	<shape id="group_0.158_ID644_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID644_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.185_ID2064_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2064_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.058_ID1200_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1200_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.008_ID869_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID869_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.134_ID1748_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1748_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.005_ID35_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID35_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.024_ID162_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID162_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.139_ID502_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID502_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.096_ID1470_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1470_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.032_ID218_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID218_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.120_ID1646_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1646_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.053_ID1166_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1166_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.237_ID2392_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2392_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.071_ID1292_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1292_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.156_ID1890_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1890_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.051_ID338_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID338_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.194_ID2118_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2118_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.013_ID899_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID899_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.011_ID71_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID71_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.009_ID59_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID59_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.212_ID2232_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2232_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.153_ID599_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID599_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.152_ID1864_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1864_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.084_ID1378_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1378_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.045_ID1108_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1108_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.234_ID2374_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2374_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.202_ID2166_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2166_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.201_ID2160_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2160_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.171_ID1980_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1980_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.165_ID1944_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1944_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.169_ID1968_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1968_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.159_ID652_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID652_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.168_ID718_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID718_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.097_ID1478_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1478_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.031_ID210_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID210_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.049_ID1136_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1136_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.148_ID556_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID556_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.043_ID286_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID286_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.176_ID2010_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2010_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.028_ID186_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID186_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.021_ID947_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID947_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.126_ID424_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID424_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.015_ID99_0000_m000_0.000000" type="serialized">
+		<ref id="5056-chromic-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID99_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.119_ID1640_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1640_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.136_ID484_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID484_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.131_ID454_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID454_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.010_ID65_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID65_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.223_ID2308_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2308_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.228_ID2338_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2338_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.132_ID460_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID460_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.049_ID326_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID326_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.048_ID1130_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1130_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.140_ID1790_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1790_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.039_ID262_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID262_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.007_ID47_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID47_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.110_ID1570_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1570_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.060_ID1216_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1216_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.153_ID1872_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1872_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.124_ID1676_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1676_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.141_ID1798_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1798_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.083_ID1370_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1370_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.241_ID2416_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2416_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.209_ID2212_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2212_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.204_ID2178_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2178_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.106_ID1542_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1542_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.029_ID194_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID194_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.133_ID466_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID466_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.059_ID388_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID388_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.059_ID388_0000_m001_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID388_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.073_ID1304_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1304_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.173_ID1992_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1992_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.141_ID514_0000_m000_0.000000" type="serialized">
+		<ref id="Ascent_Thruster-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID514_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.003_ID23_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID23_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.068_ID1270_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1270_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.115_ID1608_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1608_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.088_ID1410_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1410_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.129_ID1714_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1714_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.043_ID1094_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1094_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.100_ID1498_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1498_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.236_ID2386_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2386_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.145_ID538_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID538_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.162_ID676_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID676_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.178_ID2022_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2022_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.067_ID1264_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1264_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.214_ID2248_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2248_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.020_ID941_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID941_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.130_ID448_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID448_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.151_ID1858_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1858_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.144_ID532_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID532_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.149_ID562_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID562_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.215_ID2256_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2256_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.191_ID2100_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2100_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.023_ID156_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID156_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.190_ID2094_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2094_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.010_ID881_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID881_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.231_ID2356_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2356_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.225_ID2320_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2320_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.146_ID544_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID544_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.017_ID923_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID923_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.158_ID1902_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1902_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.240_ID2410_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2410_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.138_ID1774_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1774_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.076_ID1326_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1326_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.170_ID1974_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1974_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.020_ID138_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID138_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.184_ID2058_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2058_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.154_ID1878_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1878_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.055_ID1180_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1180_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.044_ID292_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID292_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.220_ID2290_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2290_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.019_ID130_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID130_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.061_ID400_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID400_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.103_ID1518_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1518_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.035_ID1037_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1037_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.108_ID1556_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1556_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.108_ID1556_0000_m002_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1556_0000_m002_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.089_ID1418_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1418_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.235_ID2380_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2380_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.040_ID268_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID268_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.056_ID1186_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1186_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.102_ID1512_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1512_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.022_ID955_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID955_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.164_ID1938_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1938_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.012_ID893_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID893_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.104_ID1526_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1526_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.062_ID406_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID406_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.163_ID684_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID684_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.091_ID1434_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1434_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.147_ID550_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID550_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.177_ID2016_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2016_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.087_ID1402_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1402_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.059_ID1208_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1208_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.059_ID1208_0000_m001_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1208_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.042_ID280_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID280_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.033_ID224_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID224_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.041_ID1082_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1082_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.111_ID1578_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1578_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.136_ID1760_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1760_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.062_ID1228_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1228_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.077_ID1332_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1332_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.116_ID1616_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1616_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.143_ID1810_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1810_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.050_ID332_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID332_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.018_ID929_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID929_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.052_ID1160_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1160_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.200_ID2154_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2154_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.127_ID430_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID430_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.167_ID1956_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1956_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.160_ID660_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID660_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.133_ID1742_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1742_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.065_ID1250_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1250_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.007_ID863_0000_m000_0.000000" type="serialized">
+		<ref id="Descent_Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID863_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.007_ID863_0000_m001_0.000000" type="serialized">
+		<ref id="Descent_Thruster_Dark-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID863_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.007_ID863_0000_m002_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID863_0000_m002_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.047_ID312_0000_m000_0.000000" type="serialized">
+		<ref id="5056-chromic-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID312_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.149_ID1846_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1846_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.009_ID875_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID875_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.189_ID2088_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2088_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.001_ID11_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID11_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.175_ID2004_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2004_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.216_ID2262_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2262_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.137_ID490_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID490_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.045_ID298_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID298_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.139_ID1782_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1782_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.072_ID1298_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1298_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.050_ID1144_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1144_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.042_ID1088_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1088_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.006_ID855_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID855_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.006_ID855_0000_m001_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID855_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.156_ID628_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID628_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.125_ID418_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID418_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.024_ID969_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID969_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.093_ID1448_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1448_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.094_ID1456_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1456_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.078_ID1338_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1338_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.044_ID1100_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1100_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.046_ID1114_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1114_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.107_ID1548_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1548_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.041_ID274_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID274_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.034_ID230_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID230_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.005_ID849_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID849_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.169_ID726_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID726_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.179_ID2028_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2028_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.080_ID1350_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1350_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.134_ID472_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID472_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.227_ID2332_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2332_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.063_ID1236_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1236_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.019_ID935_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID935_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.016_ID917_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID917_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.025_ID975_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID975_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.198_ID2142_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2142_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.167_ID710_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID710_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.081_ID1356_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1356_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.239_ID2404_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2404_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.017_ID111_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID111_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.182_ID2046_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2046_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.039_ID1070_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1070_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.075_ID1318_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1318_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.069_ID1276_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1276_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.205_ID2184_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2184_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.145_ID1822_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1822_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.127_ID1700_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1700_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.195_ID2124_0000_m000_0.000000" type="serialized">
+		<ref id="Black_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2124_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.206_ID2190_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2190_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.219_ID2282_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2282_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.014_ID93_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID93_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.174_ID1998_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1998_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.128_ID436_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID436_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.013_ID85_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID85_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.196_ID2130_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2130_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.038_ID1064_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1064_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.036_ID1043_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1043_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.152_ID591_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID591_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.180_ID2034_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2034_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.034_ID1031_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1031_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.242_ID2422_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2422_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.063_ID412_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID412_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.066_ID1258_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1258_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.114_ID1600_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1600_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.016_ID105_0000_m000_0.000000" type="serialized">
+		<ref id="White_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID105_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.053_ID350_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fiber_Glass-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID350_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.157_ID1896_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1896_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.012_ID79_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID79_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.054_ID1172_0000_m000_0.000000" type="serialized">
+		<ref id="Nickel_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1172_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.132_ID1736_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1736_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.188_ID2082_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2082_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.031_ID1011_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGoldenrod_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1011_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.126_ID1692_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1692_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.023_ID961_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID961_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.048_ID318_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID318_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.061_ID1222_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1222_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.070_ID1284_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1284_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.113_ID1592_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1592_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.232_ID2362_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2362_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.140_ID508_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID508_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.098_ID1484_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1484_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.221_ID2296_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2296_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.162_ID1926_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1926_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.123_ID1668_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1668_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.138_ID496_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID496_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.159_ID1908_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1908_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.211_ID2224_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2224_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.092_ID1442_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1442_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.047_ID1122_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1122_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.157_ID636_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID636_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.105_ID1534_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1534_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.233_ID2368_0000_m000_0.000000" type="serialized">
+		<ref id="Red_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2368_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.125_ID1684_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1684_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.004_ID836_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID836_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.004_ID836_0000_m001_0.000000" type="serialized">
+		<ref id="Gold_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID836_0000_m001_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.038_ID256_0000_m000_0.000000" type="serialized">
+		<ref id="Thrusters-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID256_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.074_ID1312_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1312_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.030_ID202_0000_m000_0.000000" type="serialized">
+		<ref id="__Glass_Sky_Reflection_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID202_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.130_ID1722_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1722_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.197_ID2136_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2136_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.002_ID17_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID17_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.032_ID1019_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1019_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.021_ID144_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID144_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.101_ID1504_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton_Legs-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1504_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.064_ID1244_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1244_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.026_ID981_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Foil-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID981_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.037_ID1056_0000_m000_0.000000" type="serialized">
+		<ref id="Gold_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1056_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.056_ID370_0000_m000_0.000000" type="serialized">
+		<ref id="__DarkGray_-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID370_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.147_ID1834_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1834_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.129_ID442_0000_m000_0.000000" type="serialized">
+		<ref id="Charcoal_Paint-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID442_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.154_ID607_0000_m000_0.000000" type="serialized">
+		<ref id="Copper_Kapton-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID607_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.218_ID2274_0000_m000_0.000000" type="serialized">
+		<ref id="Blue_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID2274_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.168_ID1962_0000_m000_0.000000" type="serialized">
+		<ref id="White_Fabric-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1962_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.025_ID168_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID168_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="instance_0.146_ID1828_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID1828_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -0.265682 -0.000662 -0.002385 0.048784 -0.342416 0.050031 -0.012650 0.000060 -0.160850 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+	<shape id="group_0.006_ID41_0000_m000_0.000000" type="serialized">
+		<ref id="Aluminium-bl_mat-bsdf" name="bsdf"/>
+		<string name="filename" value="../Scene/LEM/ID41_0000_m000_0_000000.serialized"/>
+		<transform name="toWorld">
+			<matrix value="0.012567 0.050235 0.002332 -2.991392 -0.000662 -0.002385 0.048784 3.183362 0.050031 -0.012650 0.000060 -1.608684 0.000000 0.000000 0.000000 1.000000"/>
+		</transform>
+	</shape>
+</scene>

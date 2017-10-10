@@ -4,7 +4,7 @@
 	
 	<bsdf type="tabulated" id="Moon_Soil-bl_mat-bsdf">
 		
-		<string name="filename" value="../Materials/moonsoil/hapke_improved_indicatrix_10084_1.bsdf"/>
+		<string name="filename" value="../Materials/moonsoil/hapke_improved_indicatrix_10084.bsdf"/>
 		 
 	</bsdf>
 

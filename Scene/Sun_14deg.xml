@@ -3,7 +3,7 @@
 <scene version="0.5.1">
 	<emitter type="directional" id="Sun-directionallight"> 
 	<!--<emitter type="sun" id="Sun-directionallight">
-		<!--<float name="turbidity" value="0.0"/>
+		<float name="turbidity" value="0.0"/>
 		<float name="sunRadiusScale" value="0.0"/>-->
 		<blackbody name="spectrumProperty" temperature="5800K" scale="1."/>
 		<transform name="toWorld">

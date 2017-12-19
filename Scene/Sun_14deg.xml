@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- # Main Scene File -->
 <scene version="0.5.1">
-	<emitter type="directional" id="Sun-directionallight"> 
-	<!--<emitter type="sun" id="Sun-directionallight">
-		<float name="turbidity" value="0.0"/>
-		<float name="sunRadiusScale" value="0.0"/>-->
+	<!--<emitter type="directional" id="Sun-directionallight">
 		<blackbody name="spectrumProperty" temperature="5800K" scale="1."/>
 		<transform name="toWorld">
 			<matrix value="-0.003491 0.325566 -0.945513 29.680000 0.000000 -0.945519 -0.325568 11.200000 -0.999994 -0.001136 0.003300 -0.820001 0.000000 0.000000 0.000000 1.000000"/>
-		</transform>
+		</transform> -->
+	
+	<emitter type="sun" id="Sun-directionallight">
+		<float name="turbidity" value="0.0"/>
+		<float name="sunRadiusScale" value="0.0"/>
+		<vector name="sunDirection" x="0.97030" y="0.24192" z="0.00000"/>
 	</emitter>
 </scene>

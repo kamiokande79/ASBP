@@ -1,0 +1,497 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 16 21:17:52 2022
+
+@author: gianluca
+"""
+import numpy as np
+from numba import jit
+
+DEG2RAD = np.pi / 180.0
+
+BRDF_SAMPLING_RES_THETA_H = 90
+BRDF_SAMPLING_RES_THETA_D = 90
+BRDF_SAMPLING_RES_PHI_D = 360
+
+RED_SCALE = 1.0 / 1500.0
+GREEN_SCALE = 1.15 / 1500.0
+BLUE_SCALE = 1.66 / 1500.0
+M_PI = np.pi
+EPS = np.finfo(float).eps
+
+bi_normal = np.array([0.0, 1.0, 0.0])
+normal = np.array([0.0, 0.0, 1.0])
+
+
+@jit(nopython=True)
+def theta_half_index(theta_half: float) -> int:
+    # Lookup theta_half index
+    # This is a non-linear mapping!
+    # In:  [0 .. pi/2]
+    # Out: [0 .. 89]
+    if theta_half <= 0.0:
+        return 0
+    theta_half_deg = (theta_half / M_PI) * BRDF_SAMPLING_RES_THETA_H * 2
+    ret_val = int(
+        np.around(np.sqrt(theta_half_deg * BRDF_SAMPLING_RES_THETA_H))
+    )
+    if ret_val < 0:
+        ret_val = 0
+    if ret_val >= BRDF_SAMPLING_RES_THETA_H:
+        ret_val = BRDF_SAMPLING_RES_THETA_H - 1
+    return ret_val
+
+
+@jit(nopython=True)
+def theta_diff_index(theta_diff: float) -> int:
+    # Lookup theta_diff index
+    # In:  [0 .. pi/2]
+    # Out: [0 .. 89]
+    tmp = int(np.around(theta_diff / (M_PI * 0.5) * BRDF_SAMPLING_RES_THETA_D))
+    if tmp < 0:
+        return 0
+    elif tmp < (BRDF_SAMPLING_RES_THETA_D - 1):
+        return tmp
+    else:
+        return int(BRDF_SAMPLING_RES_THETA_D - 1)
+
+
+@jit(nopython=True)
+def phi_diff_index(phi_diff: float) -> int:
+    # Lookup phi_diff index
+    # Because of reciprocity, the BRDF is unchanged under
+    # phi_diff -> phi_diff + M_PI
+    if phi_diff < 0.0:
+        phi_diff += M_PI
+
+    # In: phi_diff in [0 .. pi]
+    # Out: tmp in [0 .. 179]
+    tmp = int(np.around(phi_diff / M_PI * BRDF_SAMPLING_RES_PHI_D / 2))
+    if tmp < 0:
+        return 0
+    elif tmp < (BRDF_SAMPLING_RES_PHI_D / 2 - 1):
+        return tmp
+    else:
+        return int(BRDF_SAMPLING_RES_PHI_D / 2 - 1)
+
+
+@jit(nopython=True)
+def write_brdf_val(
+    brdf: np.array,
+    theta_diff: float,
+    fi_diff: float,
+    theta_half: float,
+    red: float,
+    green: float,
+    blue: float,
+) -> float:
+    # Given a pair of incoming/outgoing angles, look up the BRDF.
+    # double& red_val,double& green_val,double& blue_val
+
+    # Find index.
+    # Note that phi_half is ignored, since isotropic BRDFs are assumed
+    ind = int(
+        phi_diff_index(fi_diff)
+        + theta_diff_index(theta_diff) * BRDF_SAMPLING_RES_PHI_D / 2
+        + theta_half_index(theta_half)
+        * BRDF_SAMPLING_RES_PHI_D
+        / 2
+        * BRDF_SAMPLING_RES_THETA_D
+    )
+
+    brdf[ind] = red / RED_SCALE
+    delta_ind = int(
+        BRDF_SAMPLING_RES_THETA_H
+        * BRDF_SAMPLING_RES_THETA_D
+        * BRDF_SAMPLING_RES_PHI_D
+        / 2
+    )
+    brdf[ind + delta_ind] = green / GREEN_SCALE
+    delta_ind = (
+        BRDF_SAMPLING_RES_THETA_H
+        * BRDF_SAMPLING_RES_THETA_D
+        * BRDF_SAMPLING_RES_PHI_D
+    )
+    brdf[ind + delta_ind] = blue / BLUE_SCALE
+
+
+@jit(nopython=True)
+def angle2vec(theta: float, fi: float) -> np.array:
+    vec = np.array(
+        [np.sin(theta) * np.cos(fi), np.sin(theta) * np.sin(fi), np.cos(theta)]
+    )
+    return vec
+
+
+@jit(nopython=True)
+def normalize(vector: np.array) -> np.array:
+    norm = vector / np.linalg.norm(vector)
+    norm[np.abs(norm) <= EPS] = 0.0
+    return norm
+
+
+@jit(nopython=True)
+def rotate_vector(vector: np.array, axis: np.array, angle: float) -> np.array:
+    # rotate vector along one axis
+    cos_ang = np.cos(angle)
+    sin_ang = np.sin(angle)
+
+    out = vector * cos_ang
+    out += axis * np.dot(vector, axis) * (1.0 - cos_ang)
+    out += np.cross(axis, vector) * sin_ang
+
+    return out
+
+
+@jit(nopython=True)
+def half_diff_to_std_coords_coords2(
+    theta_half: float, fi_half: float, theta_diff: float, fi_diff: float
+) -> float:
+    half = normalize(angle2vec(theta_half, fi_half))
+    diff = normalize(angle2vec(theta_diff, fi_diff))
+
+    w_i = rotate_vector(diff, bi_normal, theta_half)
+    w_i = rotate_vector(w_i, normal, fi_half)
+
+    theta_in = np.arccos(w_i[2])
+    fi_in = np.arctan2(w_i[1], w_i[0])
+
+    w_o = normalize(2 * np.dot(half, w_i) * half - w_i)
+    theta_out = np.arccos(w_o[2])
+    fi_out = np.arctan2(w_o[1], w_o[0])
+
+    return theta_in, fi_in, theta_out, fi_out
+
+
+@jit(nopython=True)
+def Bs(g, hs):
+    return 1.0 / (1.0 + (1.0 / hs) * np.tan(g / 2))
+
+
+@jit(nopython=True)
+def Bc(g, hc):
+    A = np.tan(g / 2) / hc
+    B = 1 - np.exp(-A) / A
+    return (1 + B) / 2 / (1 + A) ** 2
+
+
+@jit(nopython=True)
+def P(g, b, c):
+    f1 = (1.0 - c) * (
+        (1.0 - b**2) / (1.0 + 2.0 * b * np.cos(g) + b**2) ** 1.5
+    )
+    f2 = c * ((1.0 - b**2) / (1.0 - 2.0 * b * np.cos(g) + b**2) ** 1.5)
+    return f1 + f2
+
+
+@jit(nopython=True)
+def F(psi):
+    return np.exp(-2.0 * np.tan(0.5 * psi))
+
+
+@jit(nopython=True)
+def H(x, w):
+    r0 = (1.0 - (1.0 - w) ** 0.5) / (1.0 + (1.0 - w) ** 0.5)
+    return (
+        1.0 - w * x * (r0 + 0.5 * (1.0 - 2.0 * r0 * x) * np.log((1.0 + x) / x))
+    ) ** (-1)
+
+
+@jit(nopython=True)
+def roughness(t, g, i, e, psi):
+    f = F(psi)
+
+    pi = np.pi
+
+    ci = np.cos(i)
+    ce = np.cos(e)
+
+    si = np.sin(i)
+    se = np.sin(e)
+
+    tt = np.tan(t)
+    ctt = 1.0 / tt
+    ctt2 = ctt**2
+
+    ti = np.tan(i)
+    if ti == 0.0:
+        cti = np.inf
+    else:
+        cti = 1.0 / ti
+    cti2 = cti**2
+
+    te = np.tan(e)
+    if te == 0.0:
+        cte = np.inf
+    else:
+        cte = 1.0 / te
+    cte2 = cte**2
+
+    cp = np.cos(psi)
+    sp2 = np.sin(psi / 2.0) ** 2
+
+    A = 1.0 / np.sqrt(1.0 + pi * tt**2)
+
+    u0p0 = A * (
+        ci
+        + si
+        * tt
+        * np.exp(-ctt2 * cti2 / pi)
+        / (2.0 - np.exp(-2.0 * ctt * cti / pi))
+    )
+    up0 = A * (
+        ce
+        + se
+        * tt
+        * np.exp(-ctt2 * cte2 / pi)
+        / (2.0 - np.exp(-2.0 * ctt * cte / pi))
+    )
+
+    u0 = ci
+    u = ce
+
+    if i <= e:
+        B = np.exp(-ctt2 * cte2 / pi) - sp2 * np.exp(-ctt2 * cti2 / pi)
+        B0 = cp * np.exp(-ctt2 * cte2 / pi) + sp2 * np.exp(-ctt2 * cti2 / pi)
+        C = (
+            2
+            - np.exp(-2.0 * ctt * cte / pi)
+            - psi * np.exp(-2.0 * ctt * cti / pi) / pi
+        )
+
+        up = A * (ce + se * tt * B / C)
+        u0p = A * (ci + si * tt * B0 / C)
+
+        S = (up / up0) * (u0 / u0p0) * A / (1.0 - f + f * A * (u0 / u0p0))
+    else:
+        B = cp * np.exp(-ctt2 * cti2 / pi) + sp2 * np.exp(-ctt2 * cte2 / pi)
+        B0 = np.exp(-ctt2 * cti2 / pi) - sp2 * np.exp(-ctt2 * cte2 / pi)
+        C = (
+            2
+            - np.exp(-2.0 * ctt * cti / pi)
+            - psi * np.exp(-2.0 * ctt * cte / pi) / pi
+        )
+
+        up = A * (ce + se * tt * B / C)
+        u0p = A * (ci + si * tt * B0 / C)
+
+        S = (up / up0) * (u0 / u0p0) * A / (1.0 - f + f * A * (u / up0))
+
+    return u0p, up, S
+
+
+@jit(nopython=True)
+def moon_brdf(i, e, psi, b, c, Bs0, hs, Bc0, hc, w, t, K=1.0):
+    # i = incident angle
+    # e = observation angle
+    # phase angle
+    g = np.cos(e) * np.cos(i) + np.sin(e) * np.sin(i) * np.cos(psi)
+    if g > 1.0:
+        g = 1.0
+    if g < -1.0:
+        g = -1.0
+    g = np.arccos(g)
+    g = abs(g)
+    u0, u, S = roughness(t, g, i, e, psi)
+    LS = K * w * u0 / (4.0 * np.pi * (u0 + u)) / np.cos(i)
+    return (
+        LS
+        * ((1.0 + Bs0 * Bs(g, hs)) * P(g, b, c) + H(u0, w) * H(u, w) - 1.0)
+        # * (1 + Bc0 * Bc(g, hc))
+        * S
+    )
+
+
+@jit(nopython=True)
+def main(data: np.array, parameters: tuple[float]) -> None:
+    RGB = [
+        parameters[0],
+        parameters[1],
+        parameters[2],
+    ]  # [0.0544, 0.0578, 0.0526]
+
+    b = parameters[3]  # 0.21
+    c = parameters[4]  # 3.29 * np.exp(-17.4 * (0.21**2)) - 0.908
+    t = parameters[5]  # 23.4 * DEG2RAD
+
+    h = parameters[6]  # 0.057
+    B0 = parameters[7]  # 1.96
+    w = parameters[8]  # 0.23
+
+    K = parameters[9]
+    F = parameters[10]  # np.pi / 0.1  # 1.0 * 4.0 * np.pi * 2.5
+    fi_half = 0.0
+    n = 90
+    zero = 3.5e-5
+    for i in range(n):
+        theta_half = (DEG2RAD * i**2) / n + zero
+        for theta_diff in range(n):
+            theta_diff *= DEG2RAD
+            theta_diff += zero
+            for fi_diff in range(2 * n):
+                fi_diff *= DEG2RAD
+                fi_diff += zero
+                (
+                    theta_in,
+                    fi_in,
+                    theta_out,
+                    fi_out,
+                ) = half_diff_to_std_coords_coords2(
+                    theta_half, fi_half, theta_diff, fi_diff
+                )
+                psi = fi_out - fi_in
+                if psi < 0:
+                    psi += 2 * np.pi
+                if psi > np.pi:
+                    psi = 2 * np.pi - psi
+                brdf = 0.0
+                if theta_in <= 0.5 * np.pi and theta_out <= 0.5 * np.pi:
+                    brdf = F * moon_brdf(
+                        theta_in, theta_out, psi, b, c, B0, h, w, t, K
+                    )
+                red = brdf * RGB[0]
+                green = brdf * RGB[1]
+                blue = brdf * RGB[2]
+
+                write_brdf_val(
+                    data, theta_diff, fi_diff, theta_half, red, green, blue
+                )
+
+
+@jit(nopython=True)
+def get_val(
+    theta_in: float,
+    theta_out: float,
+    fi_in: float,
+    fi_out: float,
+    parameters: tuple[float],
+    bsdf: bool = True,
+) -> None:
+    # w     | Single scattering albedo
+    # b     | Henyey-Greenstein double-lobed single particle phase function parameter
+    # c     | Henyey-Greenstein double-lobed single particle phase function parameter
+    # Bc0   | Amplitude of Coherent Backscatter Opposition Effect (CBOE) - fixed at 0.0
+    # hc    | Angular width of CBOE - fixed at 1.0
+    # Bs0   | Amplitude of Shadow Hiding Opposition Effect (SHOE)
+    # hs    | Angular width of SHOE
+    # theta | Effective value of the photometric roughness - fixed at 23.657
+    # phi   | Filling factor - fixed at 1.0
+    w = parameters[0]
+    b = parameters[1]
+    c = parameters[2]
+    Bc0 = parameters[3]
+    hc = parameters[4]
+    Bs0 = parameters[5]
+    hs = parameters[6]
+    theta = parameters[7]
+    K = parameters[8]
+    # b = parameters[3]  # 0.21
+    # c = parameters[4]  # 3.29 * np.exp(-17.4 * (0.21**2)) - 0.908
+    # t = parameters[5]  # 23.4 * DEG2RAD
+
+    # h = parameters[6]  # 0.057
+    # B0 = parameters[7]  # 1.96
+    # w = parameters[8]  # 0.23
+
+    # K = parameters[9]
+    F = parameters[9]  # np.pi / 0.1  # 1.0 * 4.0 * np.pi * 2.5
+    psi = fi_out - fi_in
+    if bsdf:
+        if psi < 0:
+            psi = abs(psi)
+        if psi > np.pi:
+            psi = np.pi
+    else:
+        if psi < 0:
+            psi += 2 * np.pi
+        if psi > np.pi:
+            psi = 2 * np.pi - psi
+
+    val = F * moon_brdf(
+        theta_in, theta_out, psi, b, c, Bs0, hs, Bc0, hc, w, theta, K
+    )
+    return val
+
+
+@jit(nopython=True)
+def lambert(data: np.array, parameters: tuple[float]) -> None:
+    RGB = [
+        parameters[0],
+        parameters[1],
+        parameters[2],
+    ]  # [0.0544, 0.0578, 0.0526]
+
+    # F = parameters[10]  # np.pi / 0.1  # 1.0 * 4.0 * np.pi * 2.5
+    fi_half = 0.0
+    n = 90
+    zero = 3.5e-5
+    for i in range(n):
+        theta_half = (DEG2RAD * i**2) / n + zero
+        for theta_diff in range(n):
+            theta_diff *= DEG2RAD
+            theta_diff += zero
+            for fi_diff in range(2 * n):
+                fi_diff *= DEG2RAD
+                fi_diff += zero
+                (
+                    theta_in,
+                    fi_in,
+                    theta_out,
+                    fi_out,
+                ) = half_diff_to_std_coords_coords2(
+                    theta_half, fi_half, theta_diff, fi_diff
+                )
+                psi = fi_out - fi_in
+                if psi < 0:
+                    psi += 2 * np.pi
+                if psi > np.pi:
+                    psi = 2 * np.pi - psi
+                brdf = 0.0
+                if theta_in <= 0.5 * np.pi and theta_out <= 0.5 * np.pi:
+                    brdf = 1 / np.pi
+                red = brdf * RGB[0]
+                green = brdf * RGB[1]
+                blue = brdf * RGB[2]
+
+                write_brdf_val(
+                    data, theta_diff, fi_diff, theta_half, red, green, blue
+                )
+
+
+def merl_data(file):
+    n = np.array([90, 90, 180], dtype=np.int32)
+    dims = np.array(n, dtype=np.int32)
+    dims.tofile(file)
+    data = np.zeros(shape=np.prod(n) * 3, dtype=np.float64)
+    return data
+
+
+if __name__ == "__main__":
+    # 10084
+    # linear RGB D65
+    # (R,G,B,b,c,t,h,B0,w,K,F)
+    parameters = (
+        0.0644,  # 0.0544,
+        0.0559,  # 0.0578,
+        0.0471,  # 0.0526,
+        0.21,
+        3.29 * np.exp(-17.4 * (0.21**2)) - 0.908,
+        23.4 * DEG2RAD,
+        0.057,
+        1.96,
+        0.23,
+        1.0,
+        np.pi / 0.1,  # albedo at 0.1, (rho / pi)**-1
+    )
+
+    filename = "hapke_LRO_Apollo11.binary"
+    with open(filename, "wb") as moon_file:
+        moon_data = merl_data(moon_file)
+        main(moon_data, parameters)
+        moon_data.tofile(moon_file)
+    filename = "lambert.binary"
+    with open(filename, "wb") as lambert_file:
+        lambert_data = merl_data(lambert_file)
+        lambert(lambert_data, parameters)
+        lambert_data.tofile(lambert_file)

@@ -1,40 +1,34 @@
 import numpy as np
-from numba import jit
+import warnings
+
+warnings.simplefilter("error", RuntimeWarning)
 
 
-# @jit(nopython=True)
 def Bs(g, hs):
-    return 1.0 / (1.0 + (1.0 / hs) * np.tan(g / 2))
+    return 1.0 / (1.0 + np.tan(g / 2) / hs)
 
 
-# @jit(nopython=True)
 def Bc(g, hc):
     A = np.tan(g / 2) / hc
     B = 1 - np.exp(-A) / A
     return (1 + B) / 2 / (1 + A) ** 2
 
 
-# @jit(nopython=True)
 def P(g, b, c):
     f1 = 0.5 * (1 + c) * (1 - b**2) / (1.0 - 2.0 * b * np.cos(g) + b**2) ** 1.5
     f2 = 0.5 * (1 - c) * (1 - b**2) / (1.0 + 2.0 * b * np.cos(g) + b**2) ** 1.5
-    # f1 = (1.0 - c) * (
-    #     (1.0 - b**2) / (1.0 + 2.0 * b * np.cos(g) + b**2) ** 1.5
-    # )
-    # f2 = c * ((1.0 - b**2) / (1.0 - 2.0 * b * np.cos(g) + b**2) ** 1.5)
     return f1 + f2
 
 
-# @jit(nopython=True)
 def H(x, w):
     r0 = (1.0 - (1.0 - w) ** 0.5) / (1.0 + (1.0 - w) ** 0.5)
-    return (1.0 - w * x * (r0 + 0.5 * (1.0 - 2.0 * r0 * x) * np.log((1.0 + x) / x))) ** (-1)
+    return (
+        1.0 - w * x * (r0 + 0.5 * (1.0 - 2.0 * r0 * x) * np.log((1.0 + x) / x))
+    ) ** (-1)
 
 
-# @jit(nopython=True)
 def roughness(t, g, i, e, psi):
     f = np.exp(-2.0 * np.tan(0.5 * psi))
-
     pi = np.pi
 
     ci, ce = np.cos(i), np.cos(e)
@@ -63,8 +57,20 @@ def roughness(t, g, i, e, psi):
 
     A = 1.0 / np.sqrt(1.0 + pi * tt**2)
 
-    u0p0 = A * (ci + si * tt * np.exp(-ctt2 * cti2 / pi) / (2.0 - np.exp(-2.0 * ctt * cti / pi)))
-    up0 = A * (ce + se * tt * np.exp(-ctt2 * cte2 / pi) / (2.0 - np.exp(-2.0 * ctt * cte / pi)))
+    u0p0 = A * (
+        ci
+        + si
+        * tt
+        * np.exp(-ctt2 * cti2 / pi)
+        / (2.0 - np.exp(-2.0 * ctt * cti / pi))
+    )
+    up0 = A * (
+        ce
+        + se
+        * tt
+        * np.exp(-ctt2 * cte2 / pi)
+        / (2.0 - np.exp(-2.0 * ctt * cte / pi))
+    )
 
     u0 = ci
     u = ce
@@ -72,7 +78,11 @@ def roughness(t, g, i, e, psi):
     if i <= e:
         B = np.exp(-ctt2 * cte2 / pi) - sp2 * np.exp(-ctt2 * cti2 / pi)
         B0 = cp * np.exp(-ctt2 * cte2 / pi) + sp2 * np.exp(-ctt2 * cti2 / pi)
-        C = 2 - np.exp(-2.0 * ctt * cte / pi) - psi * np.exp(-2.0 * ctt * cti / pi) / pi
+        C = (
+            2
+            - np.exp(-2.0 * ctt * cte / pi)
+            - psi * np.exp(-2.0 * ctt * cti / pi) / pi
+        )
 
         up = A * (ce + se * tt * B / C)
         u0p = A * (ci + si * tt * B0 / C)
@@ -81,7 +91,11 @@ def roughness(t, g, i, e, psi):
     else:
         B = cp * np.exp(-ctt2 * cti2 / pi) + sp2 * np.exp(-ctt2 * cte2 / pi)
         B0 = np.exp(-ctt2 * cti2 / pi) - sp2 * np.exp(-ctt2 * cte2 / pi)
-        C = 2 - np.exp(-2.0 * ctt * cti / pi) - psi * np.exp(-2.0 * ctt * cte / pi) / pi
+        C = (
+            2
+            - np.exp(-2.0 * ctt * cti / pi)
+            - psi * np.exp(-2.0 * ctt * cte / pi) / pi
+        )
 
         up = A * (ce + se * tt * B / C)
         u0p = A * (ci + si * tt * B0 / C)
@@ -91,7 +105,6 @@ def roughness(t, g, i, e, psi):
     return u0p, up, S
 
 
-# @jit(nopython=True)
 def hapke_brdf(
     i: float,
     e: float,
@@ -151,7 +164,12 @@ def hapke_brdf(
         cos_g = 1.0
     if cos_g < -1.0:
         cos_g = -1.0
-    g = np.abs(np.arccos(cos_g))
+    g = np.arccos(cos_g)
+    if np.float128(psi) > np.float128(np.pi):
+        import pdb
+
+        pdb.set_trace()
+        pass
     # effective cosines u0 and u and shadowing function S
     u0, u, S = roughness(t, g, i, e, psi)
     # Lommel–Seeliger law
@@ -160,17 +178,18 @@ def hapke_brdf(
     M = H(u0 / K, w) * H(u / K, w) - 1.0
     # return the BRDF
     # return LS * ((1.0 + Bs0 * Bs(g, hs)) * P(g, b, c) + M) * (1 + Bc0 * Bc(g, hc)) * S
-    return LS * ((1.0 + Bs0 * Bs(g, hs)) * P(g, b, c) + M) * S
+    _Bs_ = Bs(g, hs)
+    _P_ = P(g, b, c)
+    val = LS * (1 * (1.0 + Bs0 * _Bs_) * _P_ + M) * S
+    return val
 
 
-# @jit(nopython=True)
 def get_val(
     theta_in: float,
     theta_out: float,
     phi_in: float,
     phi_out: float,
     parameters: tuple[float],
-    # bsdf: bool = True,
 ) -> None:
     # w     | Single scattering albedo
     # b     | Henyey-Greenstein double-lobed single particle phase function parameter
@@ -201,25 +220,23 @@ def get_val(
         K = -np.log(1 - 1.209 * phi**a) / 1.209 / phi**a
     else:
         raise ValueError(f" filling factor mast be lower than {phi_max}")
+    # phi_in0, phi_out0 = phi_in, phi_out
     # make psi vary from 0 to 2*pi
     if phi_out < 0.0:
         phi_out += 2.0 * np.pi
     if phi_in < 0.0:
         phi_in += 2.0 * np.pi
-    psi = phi_out - phi_in
-    # if bsdf:
-    #     if psi < 0:
-    #         psi = abs(psi)
-    #     if psi > np.pi:
-    #         psi = np.pi
-    # else:
-    #     if psi < 0:
-    #         psi += 2 * np.pi
-    #     if psi > np.pi:
-    #         psi = 2 * np.pi - psi
+    psi = np.float128(phi_out - phi_in)
+
     if psi < 0:
         psi += 2 * np.pi
     if psi > np.pi:
         psi = 2 * np.pi - psi
-    val = hapke_brdf(theta_in, theta_out, psi, b, c, Bs0, hs, Bc0, hc, w, theta, K)
+
+    val = hapke_brdf(
+        theta_in, theta_out, psi, b, c, Bs0, hs, Bc0, hc, w, theta, K
+    )
+    # out = '{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}'
+    # print(out.format(theta_in,theta_out,phi_in0,phi_out0,phi_in,phi_out,psi,b,c,hs,Bs0,w,theta,K,val))
+
     return val

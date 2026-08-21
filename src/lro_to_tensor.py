@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
     n_angles = 128
     theta = u2theta(np.linspace(0.0, 1.0, n_angles))
-    theta_i = np.deg2rad(np.array([0.0, 28.0, 40.0, 50.0, 60.0, 69.0, 79, 90.0], dtype=np.float64))
+    theta_i = np.deg2rad(np.array(range(0,91,5), dtype=np.float64))
     phi_i = np.array([0.0], dtype=np.float32)
 
     tensor["phi_i"] = phi_i
@@ -152,5 +152,5 @@ if __name__ == "__main__":
     tensor["jacobian"] = np.array([jacobian], dtype=np.uint8)
     tensor["valid"] = valid.astype(dtype=np.uint8)
     print("Saving the bsdf file ...")
-    out_filename = args.filename.parent / (args.filename.stem + "_spec_2.bsdf")
+    out_filename = args.filename.parent / (args.filename.stem + "_spec.bsdf")
     write_tensor(str(out_filename.absolute()), **tensor)
